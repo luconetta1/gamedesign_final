@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Home.unity
+    guid: bc011611f0552475aa103bfdab5eac2b
+  - enabled: 1
+    path: Assets/Scenes/Reddit.unity
+    guid: 7ef114dd802604a4898686ba566ed006
   m_configObjects: {}
