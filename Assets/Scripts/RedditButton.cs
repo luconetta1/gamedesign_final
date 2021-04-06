@@ -8,14 +8,18 @@ using UnityEngine.SceneManagement;
 public class RedditButton : MonoBehaviour
 {
 
-  public int b1 = 0;
-  public int b2 = 0;
-  public int b3 = 0;
-  public int b4 = 0;
+  public static int b1 = 0;
+  public static int b2 = 0;
+  public static int b3 = 0;
+  public static int b4 = 0;
   
 
   void Update(){
     if(b1 == 1 && b2 == 1 && b3 == 1 && b4 == 1){
+      b1 = 0;
+      b2 = 0;
+      b3 = 0;
+      b4 = 0;
       NextScene();
     }
   }
