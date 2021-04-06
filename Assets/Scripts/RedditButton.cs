@@ -27,15 +27,18 @@ public class RedditButton : MonoBehaviour
   public void NextScene()
   {
       int y = SceneManager.GetActiveScene().buildIndex;
-      
+      /*
       //go to next reddit question
-      if (y == 1) {
-        SceneManager.LoadScene(2);
+      if (y == 2) {
+        SceneManager.LoadScene(1);
       }
-      //or (going to change as we add more levels) WIN
+      //or go to insta
       else {
-        SceneManager.LoadScene(3);
-      }
+        SceneManager.LoadScene(5);
+      }*/
+      
+      //skip straight to insta for now
+      SceneManager.LoadScene(5);
   }
 
   public void setb1(){

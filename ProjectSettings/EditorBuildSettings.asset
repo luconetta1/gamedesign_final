@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lose.unity
     guid: fbbaa1419bedd4d4b94f48f41a6ca6e5
+  - enabled: 1
+    path: Assets/Scenes/Instagram.unity
+    guid: c789047f3673d4024a3aedda51583481
+  - enabled: 1
+    path: Assets/Scenes/Snapchat.unity
+    guid: 2fc13dac62efd465392ee66a7d46c08c
   m_configObjects: {}

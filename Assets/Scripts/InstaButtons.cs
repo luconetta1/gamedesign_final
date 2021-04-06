@@ -8,7 +8,7 @@ public class InstaButtons : MonoBehaviour
 {
     public void findNextScene() {
       if (EventSystem.current.currentSelectedGameObject.name == "Comment") {
-        SceneManager.LoadScene(3);  //win scene
+        SceneManager.LoadScene(6);  //snapchat scene
       }
       else {
         SceneManager.LoadScene(4);  // lose scene
