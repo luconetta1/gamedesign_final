@@ -286,7 +286,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ecilal
+  m_Text: '"quote from inst post"'
 --- !u!222 &826985880
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 39629250}
   - component: {fileID: 39629249}
   m_Layer: 5
-  m_Name: Alicia
+  m_Name: Theo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -439,7 +439,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Alise
+  m_Text: Luca
 --- !u!222 &124928556
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -614,7 +614,7 @@ GameObject:
   - component: {fileID: 451462381}
   - component: {fileID: 451462380}
   m_Layer: 5
-  m_Name: Cecilia
+  m_Name: Isa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -757,7 +757,7 @@ GameObject:
   - component: {fileID: 461647841}
   - component: {fileID: 461647840}
   m_Layer: 5
-  m_Name: Sallie
+  m_Name: Matt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1194,7 +1194,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Sallie
+  m_Text: Matt
 --- !u!222 &908046238
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1217,7 +1217,7 @@ GameObject:
   - component: {fileID: 1094410522}
   - component: {fileID: 1094410521}
   m_Layer: 5
-  m_Name: Alise
+  m_Name: Luca
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1584,7 +1584,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Alicia
+  m_Text: Theo
 --- !u!222 &1461575082
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1830,7 +1830,7 @@ GameObject:
   - component: {fileID: 2056145029}
   - component: {fileID: 2056145028}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Isa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
