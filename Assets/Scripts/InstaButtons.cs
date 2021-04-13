@@ -8,7 +8,12 @@ public class InstaButtons : MonoBehaviour
 {
     public void findNextScene() {
       if (EventSystem.current.currentSelectedGameObject.name == "Comment") {
-        SceneManager.LoadScene("Reddit2");  //snapchat scene
+        if (SceneManager.GetActiveScene().name == "Instagram") {
+          SceneManager.LoadScene("Reddit2");  //second level
+        }
+        else {
+          SceneManager.LoadScene("Win");
+        }
       }
       else {
         SceneManager.LoadScene("Lose");  // lose scene

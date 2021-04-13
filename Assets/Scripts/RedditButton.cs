@@ -28,9 +28,9 @@ public class RedditButton : MonoBehaviour
   {
       int y = SceneManager.GetActiveScene().buildIndex;
       
-      //go to next reddit question
+      //go to next snap2
       if (y == 5) {
-        SceneManager.LoadScene(6);
+        SceneManager.LoadScene("Snapchat2");
       }
       //or go to snap1
       else {

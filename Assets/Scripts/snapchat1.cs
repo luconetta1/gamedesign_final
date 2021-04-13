@@ -22,11 +22,25 @@ public class snapchat1 : MonoBehaviour
 
     public void to_chat() 
     {
-        SceneManager.LoadScene("Snapchat1a");
+        string currScene = SceneManager.GetActiveScene().name;
+        
+        if (currScene == "Snapchat") {
+          SceneManager.LoadScene("Snapchat1a");
+        }
+        else {
+          SceneManager.LoadScene("Snapchat2a");
+        }
     }
     
     public void next_scene()
     {
+      int y = SceneManager.GetActiveScene().buildIndex; //current scene index
+      
+      if (y == 3) {
         SceneManager.LoadScene("Instagram");
+      }
+      else {
+        SceneManager.LoadScene("Instagram2");
+      }
     }
 }
