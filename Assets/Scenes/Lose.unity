@@ -356,9 +356,17 @@ MonoBehaviour:
 
 
 
-    Hint: the
-    reddit puzzles can be solved by Upvoting and Downvoting in the correct order
-    (and clues about the order can be found in the top post)'
+    Reddit:
+    be sure to look in the original reddit post for clues about how to Upvote and
+    Downvote the given answers
+
+
+    Snapchat: you may need to use clues from previous
+    levels to get this right
+
+
+    Instagram: is there anything unusual about the
+    picture posted?'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -669,10 +677,10 @@ RectTransform:
   m_Father: {fileID: 1744880450}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7.6, y: -240.9}
-  m_SizeDelta: {x: 212.74945, y: 122.31154}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -7.6, y: 113}
+  m_SizeDelta: {x: 212.74945, y: 122.31152}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1676637742
 MonoBehaviour:

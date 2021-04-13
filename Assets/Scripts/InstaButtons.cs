@@ -7,16 +7,21 @@ using UnityEngine.EventSystems;
 public class InstaButtons : MonoBehaviour
 {
     public void findNextScene() {
-      if (EventSystem.current.currentSelectedGameObject.name == "Comment") {
-        if (SceneManager.GetActiveScene().name == "Instagram") {
-          SceneManager.LoadScene("Reddit2");  //second level
+      if (SceneManager.GetActiveScene().name == "Instagram") {
+        if (EventSystem.current.currentSelectedGameObject.name == "Comment") {
+            SceneManager.LoadScene("Reddit2");  //second level
         }
         else {
-          SceneManager.LoadScene("Win");
+          SceneManager.LoadScene("Lose");  // lose scene
         }
       }
       else {
-        SceneManager.LoadScene("Lose");  // lose scene
+        if (EventSystem.current.currentSelectedGameObject.name == "Like") {
+            SceneManager.LoadScene("Win");  //second level
+        }
+        else {
+          SceneManager.LoadScene("Lose");  // lose scene
+        }
       }
     }
 }
