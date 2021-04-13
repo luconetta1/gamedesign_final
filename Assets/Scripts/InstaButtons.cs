@@ -8,10 +8,10 @@ public class InstaButtons : MonoBehaviour
 {
     public void findNextScene() {
       if (EventSystem.current.currentSelectedGameObject.name == "Comment") {
-        SceneManager.LoadScene(6);  //snapchat scene
+        SceneManager.LoadScene("Reddit2");  //snapchat scene
       }
       else {
-        SceneManager.LoadScene(4);  // lose scene
+        SceneManager.LoadScene("Lose");  // lose scene
       }
     }
 }

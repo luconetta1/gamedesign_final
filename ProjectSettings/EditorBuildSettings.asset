@@ -12,6 +12,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Reddit.unity
     guid: 7ef114dd802604a4898686ba566ed006
   - enabled: 1
+    path: Assets/Scenes/Snapchat.unity
+    guid: 2fc13dac62efd465392ee66a7d46c08c
+  - enabled: 1
+    path: Assets/Scenes/Snapchat1a.unity
+    guid: f4965345809a540bd8fc678a7f1bffb0
+  - enabled: 1
+    path: Assets/Scenes/Instagram.unity
+    guid: c789047f3673d4024a3aedda51583481
+  - enabled: 1
     path: Assets/Scenes/Reddit2.unity
     guid: 25753e65f982d429baeea2aa069b8b4b
   - enabled: 1
@@ -20,10 +29,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lose.unity
     guid: fbbaa1419bedd4d4b94f48f41a6ca6e5
-  - enabled: 1
-    path: Assets/Scenes/Instagram.unity
-    guid: c789047f3673d4024a3aedda51583481
-  - enabled: 1
-    path: Assets/Scenes/Snapchat.unity
-    guid: 2fc13dac62efd465392ee66a7d46c08c
   m_configObjects: {}

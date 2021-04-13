@@ -7,7 +7,7 @@ public class Start_Button : MonoBehaviour
 {
     public void NextScene()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("Reddit");
     }
 }
 

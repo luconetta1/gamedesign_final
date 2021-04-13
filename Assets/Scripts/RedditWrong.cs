@@ -8,6 +8,6 @@ public class RedditWrong : MonoBehaviour
   public void NextScene()
   {
     //you lose
-    SceneManager.LoadScene(4);
+    SceneManager.LoadScene("Lose");
   }
 }
