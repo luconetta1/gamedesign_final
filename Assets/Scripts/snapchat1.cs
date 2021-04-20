@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class snapchat1 : MonoBehaviour
 {
     public GameObject popup;
-    public AudioSource ding;
+    //public AudioSource ding;
     
     void Start()
     {
@@ -20,7 +20,7 @@ public class snapchat1 : MonoBehaviour
     void POP()
     {
          popup.SetActive(true);
-         ding.Play();
+         //ding.Play();
     }
 
     public void to_chat() 
@@ -40,7 +40,7 @@ public class snapchat1 : MonoBehaviour
       int y = SceneManager.GetActiveScene().buildIndex; //current scene index
       
       if (y == 3) {
-        SceneManager.LoadScene("Instagram");
+        SceneManager.LoadScene("Message3");  //third message
       }
       else {
         SceneManager.LoadScene("Instagram2");

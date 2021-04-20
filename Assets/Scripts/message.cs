@@ -1,6 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+using UnityEngine.EventSystems;
 
 public class message : MonoBehaviour
 {
@@ -33,5 +36,18 @@ public class message : MonoBehaviour
     {
         message1.SetActive(true);
        //  ding.Play();
+    }
+    
+    public void nextScene() {
+      string currScene = SceneManager.GetActiveScene().name;
+      if ( currScene == "Message1") {
+        SceneManager.LoadScene("Instagram");  //Insta Level 1
+      }
+      else if ( currScene == "Message2") {
+        SceneManager.LoadScene("Snapchat");  //Snap Level 1
+      }
+      else if ( currScene == "Message3") {
+        SceneManager.LoadScene("Reddit2");  //Reddit Level 2
+      }
     }
 }

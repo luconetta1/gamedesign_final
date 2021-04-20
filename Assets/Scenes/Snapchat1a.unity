@@ -221,7 +221,7 @@ GameObject:
   - component: {fileID: 10699874}
   - component: {fileID: 10699877}
   m_Layer: 5
-  m_Name: Mike
+  m_Name: 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -240,7 +240,7 @@ RectTransform:
   m_Children:
   - {fileID: 1092249437}
   m_Father: {fileID: 989264460}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -364,7 +364,7 @@ GameObject:
   - component: {fileID: 86480419}
   - component: {fileID: 86480422}
   m_Layer: 5
-  m_Name: Katie
+  m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -527,7 +527,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -26.048, y: -46.013}
+  m_AnchoredPosition: {x: 15, y: -46.013}
   m_SizeDelta: {x: 365.3947, y: 65.05233}
   m_Pivot: {x: 0.5, y: 0.49999973}
 --- !u!114 &145631532
@@ -562,7 +562,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Bobby
+  m_Text: knickknack
 --- !u!222 &145631533
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -585,7 +585,7 @@ GameObject:
   - component: {fileID: 221824053}
   - component: {fileID: 221824056}
   m_Layer: 5
-  m_Name: Bach
+  m_Name: 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -728,7 +728,7 @@ GameObject:
   - component: {fileID: 712362892}
   - component: {fileID: 712362895}
   m_Layer: 5
-  m_Name: Bobby
+  m_Name: 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -857,7 +857,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2e85362b1ebb4805b1a18f5ef652899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  popup: {fileID: 0}
+  popup: {fileID: 1313720830}
+  ding: {fileID: 0}
 --- !u!1 &769926823
 GameObject:
   m_ObjectHideFlags: 0
@@ -892,7 +893,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -26.048, y: -46.013}
+  m_AnchoredPosition: {x: 20, y: -46.013}
   m_SizeDelta: {x: 365.3947, y: 65.05233}
   m_Pivot: {x: 0.5, y: 0.49999973}
 --- !u!114 &769926825
@@ -927,7 +928,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: James
+  m_Text: bigBird4eva
 --- !u!222 &769926826
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1125,9 +1126,9 @@ RectTransform:
   - {fileID: 3193206}
   - {fileID: 1901370525}
   - {fileID: 86480418}
-  - {fileID: 1629695642}
-  - {fileID: 712362891}
   - {fileID: 10699873}
+  - {fileID: 712362891}
+  - {fileID: 1629695642}
   - {fileID: 1610235812}
   - {fileID: 221824052}
   m_Father: {fileID: 0}
@@ -1172,7 +1173,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -26.048, y: -46.013}
+  m_AnchoredPosition: {x: 2, y: -46.013}
   m_SizeDelta: {x: 365.3947, y: 65.05233}
   m_Pivot: {x: 0.5, y: 0.49999973}
 --- !u!114 &1092249438
@@ -1207,7 +1208,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Mike
+  m_Text: mr_krabs
 --- !u!222 &1092249439
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1316,7 +1317,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -26.048, y: -39.27}
+  m_AnchoredPosition: {x: 16, y: -39.27}
   m_SizeDelta: {x: 365.3947, y: 78.53915}
   m_Pivot: {x: 0.5, y: 0.49999973}
 --- !u!114 &1248528087
@@ -1351,7 +1352,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Bach
+  m_Text: katChup22
 --- !u!222 &1248528088
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1455,7 +1456,7 @@ GameObject:
   - component: {fileID: 1610235813}
   - component: {fileID: 1610235816}
   m_Layer: 5
-  m_Name: Jessica
+  m_Name: 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1598,7 +1599,7 @@ GameObject:
   - component: {fileID: 1629695643}
   - component: {fileID: 1629695646}
   m_Layer: 5
-  m_Name: James
+  m_Name: 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1617,7 +1618,7 @@ RectTransform:
   m_Children:
   - {fileID: 769926824}
   m_Father: {fileID: 989264460}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1761,7 +1762,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -26.048, y: -46.013}
+  m_AnchoredPosition: {x: 31, y: -46.013}
   m_SizeDelta: {x: 365.3947, y: 65.05233}
   m_Pivot: {x: 0.5, y: 0.49999973}
 --- !u!114 &1803287686
@@ -1796,7 +1797,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Jessica
+  m_Text: drummer_gurl
 --- !u!222 &1803287687
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1839,7 +1840,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -26.048, y: -46.013}
+  m_AnchoredPosition: {x: 26, y: -46.013}
   m_SizeDelta: {x: 365.3947, y: 65.05233}
   m_Pivot: {x: 0.5, y: 0.49999973}
 --- !u!114 &1821799070
@@ -1874,7 +1875,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Katie
+  m_Text: helloKitty101
 --- !u!222 &1821799071
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -1378,8 +1378,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'I don''t think I feel Up for a party tonight, but I already told my friends
-    I was Down...should I man Up and go or tell them I''m feeling pretty Down?
+  m_text: 'I don''t think I feel UP for a party tonight, but I already told my friends
+    I was DOWN...should I man UP and go or tell them I''m feeling pretty DOWN?
 
 '
   m_isRightToLeft: 0
@@ -1901,9 +1901,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b62bd6feed83486694d8703e17a8500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: {fileID: 1345432190}
-  feedback: {fileID: 21300000, guid: a655415dfa00f424e9322198b2040ea3, type: 3}
-  original: {fileID: 21300000, guid: 439a28a8eeb7b4411adc5a3834b29374, type: 3}
+  button: {fileID: 1234244963}
+  feedback: {fileID: 21300000, guid: eee8a1f77578e4421b3e30ee382ff0a0, type: 3}
+  original: {fileID: 21300000, guid: f75131f92400040739efa7f133e3ee6a, type: 3}
 --- !u!114 &1345432190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2326,9 +2326,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b62bd6feed83486694d8703e17a8500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: {fileID: 1576142100}
-  feedback: {fileID: 21300000, guid: eee8a1f77578e4421b3e30ee382ff0a0, type: 3}
-  original: {fileID: 21300000, guid: f75131f92400040739efa7f133e3ee6a, type: 3}
+  button: {fileID: 1424746397}
+  feedback: {fileID: 21300000, guid: a655415dfa00f424e9322198b2040ea3, type: 3}
+  original: {fileID: 21300000, guid: 439a28a8eeb7b4411adc5a3834b29374, type: 3}
 --- !u!114 &1576142100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2485,9 +2485,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b62bd6feed83486694d8703e17a8500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: {fileID: 1595784644}
-  feedback: {fileID: 21300000, guid: a655415dfa00f424e9322198b2040ea3, type: 3}
-  original: {fileID: 21300000, guid: 439a28a8eeb7b4411adc5a3834b29374, type: 3}
+  button: {fileID: 98456638}
+  feedback: {fileID: 21300000, guid: eee8a1f77578e4421b3e30ee382ff0a0, type: 3}
+  original: {fileID: 21300000, guid: f75131f92400040739efa7f133e3ee6a, type: 3}
 --- !u!114 &1595784644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3384,9 +3384,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b62bd6feed83486694d8703e17a8500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: {fileID: 1928463309}
-  feedback: {fileID: 21300000, guid: eee8a1f77578e4421b3e30ee382ff0a0, type: 3}
-  original: {fileID: 21300000, guid: f75131f92400040739efa7f133e3ee6a, type: 3}
+  button: {fileID: 1692589952}
+  feedback: {fileID: 21300000, guid: a655415dfa00f424e9322198b2040ea3, type: 3}
+  original: {fileID: 21300000, guid: 439a28a8eeb7b4411adc5a3834b29374, type: 3}
 --- !u!114 &1928463309
 MonoBehaviour:
   m_ObjectHideFlags: 0

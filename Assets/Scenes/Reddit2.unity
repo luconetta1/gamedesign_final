@@ -567,7 +567,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 237.2, y: -146.2}
+  m_AnchoredPosition: {x: 237.2, y: -174}
   m_SizeDelta: {x: 298.80908, y: 93.0609}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &308395410
@@ -589,7 +589,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: haha you dont have any friends loser
+  m_text: this is total bs
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -731,9 +731,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b62bd6feed83486694d8703e17a8500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: {fileID: 330306832}
-  feedback: {fileID: 21300000, guid: a655415dfa00f424e9322198b2040ea3, type: 3}
-  original: {fileID: 21300000, guid: 439a28a8eeb7b4411adc5a3834b29374, type: 3}
+  button: {fileID: 1538301241}
+  feedback: {fileID: 21300000, guid: eee8a1f77578e4421b3e30ee382ff0a0, type: 3}
+  original: {fileID: 21300000, guid: f75131f92400040739efa7f133e3ee6a, type: 3}
 --- !u!114 &330306832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -892,7 +892,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 234.8, y: 189.5}
+  m_AnchoredPosition: {x: 234.8, y: 157}
   m_SizeDelta: {x: 297.70856, y: 64.26045}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &389584998
@@ -914,8 +914,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Sometimes making friends is hard, and you just need to let people know
-    that you want to be their friend :)
+  m_text: you should get some sleep, sir
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1048,8 +1047,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'i Usually Understand why people Don''t like me, but why Don''t i have
-    any friends??
+  m_text: 'i swear i jUst saw this person get sUckeD into their own phone...iDk maybe
+    i''m going crazy :(
 
 '
   m_isRightToLeft: 0
@@ -1428,7 +1427,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 200.99998, y: -92.999985}
+  m_AnchoredPosition: {x: 200.99998, y: -108}
   m_SizeDelta: {x: 220.84924, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &520771570
@@ -1450,7 +1449,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: probably bc your weird and not smart
+  m_text: yes, youre crazy
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1707,7 +1706,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 247.6, y: 16}
+  m_AnchoredPosition: {x: 247.6, y: -14}
   m_SizeDelta: {x: 307.62524, y: 130.70927}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &628507252
@@ -1729,8 +1728,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: friends can come in all shapes and sizes...make sure you're not overlooking
-    someone who really cares
+  m_text: wow...this is gonna start some wild governement conspiracies
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2274,9 +2272,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b62bd6feed83486694d8703e17a8500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: {fileID: 874934724}
-  feedback: {fileID: 21300000, guid: eee8a1f77578e4421b3e30ee382ff0a0, type: 3}
-  original: {fileID: 21300000, guid: f75131f92400040739efa7f133e3ee6a, type: 3}
+  button: {fileID: 616190600}
+  feedback: {fileID: 21300000, guid: a655415dfa00f424e9322198b2040ea3, type: 3}
+  original: {fileID: 21300000, guid: 439a28a8eeb7b4411adc5a3834b29374, type: 3}
 --- !u!114 &874934723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3206,9 +3204,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b62bd6feed83486694d8703e17a8500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: {fileID: 1695100441}
-  feedback: {fileID: 21300000, guid: eee8a1f77578e4421b3e30ee382ff0a0, type: 3}
-  original: {fileID: 21300000, guid: f75131f92400040739efa7f133e3ee6a, type: 3}
+  button: {fileID: 183539205}
+  feedback: {fileID: 21300000, guid: a655415dfa00f424e9322198b2040ea3, type: 3}
+  original: {fileID: 21300000, guid: 439a28a8eeb7b4411adc5a3834b29374, type: 3}
 --- !u!114 &1695100441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3660,9 +3658,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b62bd6feed83486694d8703e17a8500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: {fileID: 2119760947}
-  feedback: {fileID: 21300000, guid: a655415dfa00f424e9322198b2040ea3, type: 3}
-  original: {fileID: 21300000, guid: 439a28a8eeb7b4411adc5a3834b29374, type: 3}
+  button: {fileID: 1190653288}
+  feedback: {fileID: 21300000, guid: eee8a1f77578e4421b3e30ee382ff0a0, type: 3}
+  original: {fileID: 21300000, guid: f75131f92400040739efa7f133e3ee6a, type: 3}
 --- !u!114 &2119760947
 MonoBehaviour:
   m_ObjectHideFlags: 0

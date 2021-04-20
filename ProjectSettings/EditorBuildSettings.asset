@@ -38,4 +38,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Instagram2.unity
     guid: ebd3ddfb91c84445bb5c3d9dfe341fa7
+  - enabled: 1
+    path: Assets/Scenes/Message1.unity
+    guid: e861da8b507bb40179b98b9407b20324
+  - enabled: 1
+    path: Assets/Scenes/Message2.unity
+    guid: 546a1c5c2113c4455919200aae09e1db
+  - enabled: 1
+    path: Assets/Scenes/Message3.unity
+    guid: 918c9f03d786941e18c5233f1cb852c9
   m_configObjects: {}
