@@ -21,20 +21,29 @@ public class Digits : MonoBehaviour
     public void addNote() 
     {
       if (SceneManager.GetActiveScene().name == "Instagram") {
-        notepad.text += "7";
-        progress += "7";
+        if(progress.Length < 1){
+          notepad.text += "7";
+          progress += "7";
+        }
       }
       else if (SceneManager.GetActiveScene().name == "Snapchat") {
-        notepad.text += "6";
-        progress += "6";
+        if(progress.Length < 2){
+          notepad.text += "6";
+          progress += "6";
+        }
       }
       else if (SceneManager.GetActiveScene().name == "Reddit2") {
-        notepad.text += "2";
-        progress += "2";
+        if(progress.Length < 3){
+          notepad.text += "2";
+          progress += "2";
+        }
       }
       else if (SceneManager.GetActiveScene().name == "Snapchat2a") {
-        notepad.text += "3";
-        progress += "3";
+        if(progress.Length < 4){
+          notepad.text += "3";
+          progress += "3";
+        }
       }
     }
+    
 }
