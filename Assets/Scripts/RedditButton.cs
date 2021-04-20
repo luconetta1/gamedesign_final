@@ -35,7 +35,7 @@ public class RedditButton : MonoBehaviour
       
       //go to next snap2
       if (y == 5) {
-        SceneManager.LoadScene("Snapchat2");
+        SceneManager.LoadScene("Message4");
       }
       //or go to first message scene
       else {

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 using System;
 
@@ -10,7 +11,9 @@ public class KeypadButton : MonoBehaviour
 {
 
     public static event Action<string> ButtonPressed = delegate{};
-
+    public Text inputDisplay;
+    public GameObject answer;
+    
     private int pos;
     private string buttonName, buttonValue;
     private static string InputCode;
@@ -34,6 +37,7 @@ public class KeypadButton : MonoBehaviour
         buttonValue = buttonName.Substring(0, pos);
 
         AddDigit(buttonValue);
+        
     }
     // private void ButtonClicked()
     // {
@@ -80,10 +84,12 @@ public class KeypadButton : MonoBehaviour
                     break;
             
             }
+            inputDisplay.text = InputCode;
         }
         if(InputCode.Length == 4)
         {
-        CheckResults();
+          inputDisplay.text = InputCode;
+          CheckResults();
         }
 
 
@@ -92,16 +98,17 @@ public class KeypadButton : MonoBehaviour
     private void CheckResults()
     {
         Debug.Log(InputCode);
-        if(InputCode == "1234")    // CORRECT CODE HERE
+        if(InputCode == "7623")    // CORRECT CODE HERE
         {
             Debug.Log("correct"); //Put scenes here
+            SceneManager.LoadScene("Win");  //win the game
         }
         else
         {
             Debug.Log("incorrect");
         }
 
-        InputCode = ""; 
+        InputCode = "";
 
     }
 

@@ -53,4 +53,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Message5.unity
     guid: 7b1957fcfa82a4e88ad83f629e49626a
+  - enabled: 1
+    path: Assets/Scenes/Message6.unity
+    guid: 8a3786fc8a992401b8160d8743681c92
+  - enabled: 1
+    path: Assets/Scenes/keypad.unity
+    guid: b7ac12e6dbf6d4b0a92346757f8efeec
   m_configObjects: {}

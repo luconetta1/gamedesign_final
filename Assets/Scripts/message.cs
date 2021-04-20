@@ -55,5 +55,8 @@ public class message : MonoBehaviour
       else if ( currScene == "Message5") {
         SceneManager.LoadScene("Instagram2");  //Insta Level 2
       }
+      else if ( currScene == "Message6") {
+        SceneManager.LoadScene("keypad");  //Insta Level 2
+      }
     }
 }
