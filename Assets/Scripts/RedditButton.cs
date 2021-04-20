@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 
 
@@ -12,6 +13,10 @@ public class RedditButton : MonoBehaviour
   public static int b2 = 0;
   public static int b3 = 0;
   public static int b4 = 0;
+  
+  public Button button;
+  public Sprite feedback;   //feedback button image (for when correct)
+  public Sprite original;   //regular button image
   
 
   void Update(){
@@ -43,34 +48,42 @@ public class RedditButton : MonoBehaviour
 
   public void setb1(){
     b1 = 1;
+    button.GetComponent<Image>().sprite = feedback;
   }
 
   public void resetb1(){
     b1 = 0;
+    button.GetComponent<Image>().sprite = original;
   }
 
    public void setb2(){
     b2 = 1;
+    button.GetComponent<Image>().sprite = feedback;
   }
 
   public void resetb2(){
     b2 = 0;
+    button.GetComponent<Image>().sprite = original;
   }
 
    public void setb3(){
     b3 = 1;
+    button.GetComponent<Image>().sprite = feedback;
   }
 
   public void resetb3(){
     b3 = 0;
+    button.GetComponent<Image>().sprite = original;
   }
 
    public void setb4(){
     b4 = 1;
+    button.GetComponent<Image>().sprite = feedback;
   }
 
   public void resetb4(){
     b4 = 0;
+    button.GetComponent<Image>().sprite = original;
   }
 }
 
