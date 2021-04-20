@@ -356,17 +356,17 @@ MonoBehaviour:
 
 
 
-    Reddit:
+    REDDIT:
     be sure to look in the original reddit post for clues about how to Upvote and
     Downvote the given answers
 
 
-    Snapchat: you may need to use clues from previous
-    levels to get this right
+    QUICKPIC: who''s message are you looking for
+    and what do you know about them?
 
 
-    Instagram: is there anything unusual about the
-    picture posted?'
+    LIVE: is there anything unusual about
+    the picture posted?'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

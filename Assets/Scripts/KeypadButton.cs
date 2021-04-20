@@ -21,6 +21,7 @@ public class KeypadButton : MonoBehaviour
     void Start()
     {
         InputCode = "";
+        inputDisplay.text = "_ _ _ _";
         // buttonName = EventSystem.current.currentSelectedGameObject.name;
         // pos = buttonName.IndexOf("_");
         // buttonValue = buttonName.Substring(0, pos);
@@ -85,6 +86,9 @@ public class KeypadButton : MonoBehaviour
             
             }
             inputDisplay.text = InputCode;
+            for (int i = 0; i < 4-InputCode.Length; i++) {
+              inputDisplay.text += "_ ";
+            }
         }
         if(InputCode.Length == 4)
         {
@@ -106,6 +110,7 @@ public class KeypadButton : MonoBehaviour
         else
         {
             Debug.Log("incorrect");
+            inputDisplay.text = "INCORRECT";
         }
 
         InputCode = "";
