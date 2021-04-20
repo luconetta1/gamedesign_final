@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/message.unity
+- path: Assets/Scenes/keypad.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
