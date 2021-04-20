@@ -43,7 +43,7 @@ public class snapchat1 : MonoBehaviour
         SceneManager.LoadScene("Message3");  //third message
       }
       else {
-        SceneManager.LoadScene("Instagram2");
+        SceneManager.LoadScene("Message5"); //fifth message
       }
     }
 }

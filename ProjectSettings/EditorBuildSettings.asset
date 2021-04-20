@@ -47,4 +47,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Message3.unity
     guid: 918c9f03d786941e18c5233f1cb852c9
+  - enabled: 1
+    path: Assets/Scenes/Message4.unity
+    guid: 974066bb56ac344e5b6845a2a1e815d4
+  - enabled: 1
+    path: Assets/Scenes/Message5.unity
+    guid: 7b1957fcfa82a4e88ad83f629e49626a
   m_configObjects: {}

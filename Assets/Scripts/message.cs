@@ -49,5 +49,11 @@ public class message : MonoBehaviour
       else if ( currScene == "Message3") {
         SceneManager.LoadScene("Reddit2");  //Reddit Level 2
       }
+      else if ( currScene == "Message4") {
+        SceneManager.LoadScene("Snapchat2");  //Snap Level 2
+      }
+      else if ( currScene == "Message5") {
+        SceneManager.LoadScene("Instagram2");  //Insta Level 2
+      }
     }
 }

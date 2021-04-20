@@ -17,7 +17,7 @@ public class InstaButtons : MonoBehaviour
       }
       else {
         if (EventSystem.current.currentSelectedGameObject.name == "Like") {
-            SceneManager.LoadScene("Win");  //win
+            SceneManager.LoadScene("Message6");  //6th message
         }
         else {
           SceneManager.LoadScene("Lose");  // lose scene
