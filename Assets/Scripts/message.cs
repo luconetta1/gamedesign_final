@@ -11,6 +11,7 @@ public class message : MonoBehaviour
     public static GameObject message1;
     public static GameObject message2;
     public static GameObject message3;
+    public GameObject nextButton;
     //can use more/less messages depending on scene
 
    // public AudioSource ding;
@@ -26,6 +27,7 @@ public class message : MonoBehaviour
         message1.SetActive(false); 
         message2.SetActive(false); 
         message3.SetActive(false); 
+        nextButton.SetActive(false);
 
 
         Invoke("msg1", 1.0f);
@@ -36,6 +38,10 @@ public class message : MonoBehaviour
     {
         message1.SetActive(true);
        //  ding.Play();
+    }
+    
+    public void makeActive() {
+        nextButton.SetActive(true);
     }
     
     public void nextScene() {
