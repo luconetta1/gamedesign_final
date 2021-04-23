@@ -12,7 +12,6 @@ public class KeypadButton : MonoBehaviour
 
     public static event Action<string> ButtonPressed = delegate{};
     public Text inputDisplay;
-    public GameObject answer;
     
     private int pos;
     private string buttonName, buttonValue;
