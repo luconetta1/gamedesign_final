@@ -12,15 +12,25 @@ public class KeypadButton : MonoBehaviour
 
     public static event Action<string> ButtonPressed = delegate{};
     public Text inputDisplay;
+    public Text notepad;
+    
     
     private int pos;
     private string buttonName, buttonValue;
     private static string InputCode;
+    private static string realCode;
+    private static string progress = "";
+    private static bool doneFirst  = false;
+    private static bool doneSecond = false;
+    private static bool doneThird  = false;
+    private static bool doneFourth = false;
     // Start is called before the first frame update
     void Start()
     {
         InputCode = "";
         inputDisplay.text = "_ _ _ _";
+        notepad.text = progress;
+        changeHidden();
         // buttonName = EventSystem.current.currentSelectedGameObject.name;
         // pos = buttonName.IndexOf("_");
         // buttonValue = buttonName.Substring(0, pos);
@@ -28,6 +38,68 @@ public class KeypadButton : MonoBehaviour
         // gameObject.GetComponent<Button>().onClick.AddListener(ButtonClicked);
         // ButtonPressed += AddDigit;
         
+    }
+    
+    public void createCode() {
+      realCode = "";
+      for (int i = 0; i < 4; i++) {
+        realCode += UnityEngine.Random.Range(1,10);
+      }
+      doneFirst   = false;
+      doneSecond  = false;
+      doneThird   = false;
+      doneFourth  = false;
+      notepad.text = "";
+      progress     = "";
+    }
+    
+    private void changeHidden() {
+      var x = GameObject.Find("Passcode Stuff");
+      var hidden = x.transform.GetChild(0).gameObject.GetComponentInChildren<Text>();
+      if (SceneManager.GetActiveScene().name == "Instagram") {
+          hidden.text = realCode[0] + "";
+      }
+      else if (SceneManager.GetActiveScene().name == "Snapchat") {
+        hidden.text = realCode[1] + "";
+      }
+      else if (SceneManager.GetActiveScene().name == "Reddit2") {
+        hidden.text = realCode[2] + "";
+      }
+      else if (SceneManager.GetActiveScene().name == "Snapchat2a") {
+        hidden.text = realCode[3] + "";
+      }
+    }
+    
+    public void addNote() 
+    {
+      if (SceneManager.GetActiveScene().name == "Instagram") {
+        if(!doneFirst){
+          notepad.text += realCode[0] + "";
+          progress += realCode[0] + "";
+          doneFirst = true;
+        }
+      }
+      else if (SceneManager.GetActiveScene().name == "Snapchat") {
+        if(!doneSecond){
+          notepad.text += realCode[1] + "";
+          progress += realCode[1] + "";
+          doneSecond = true;
+        }
+      }
+      else if (SceneManager.GetActiveScene().name == "Reddit2") {
+        if(!doneThird){
+          notepad.text += realCode[2] + "";
+          progress += realCode[2] + "";
+          doneThird = true;
+        }
+      }
+      else if (SceneManager.GetActiveScene().name == "Snapchat2a") {
+        if(!doneFourth){
+          notepad.text += realCode[3] + "";
+          progress += realCode[3] + "";
+          doneFourth = true;
+        }
+      }
     }
 
     public void button_click(Button btn)
@@ -101,7 +173,7 @@ public class KeypadButton : MonoBehaviour
     private void CheckResults()
     {
         Debug.Log(InputCode);
-        if(InputCode == "7623")    // CORRECT CODE HERE
+        if(InputCode == realCode)    // CORRECT CODE HERE
         {
             Debug.Log("correct"); //Put scenes here
             SceneManager.LoadScene("Win");  //win the game

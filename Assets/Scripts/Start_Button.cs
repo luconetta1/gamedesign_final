@@ -7,7 +7,12 @@ public class Start_Button : MonoBehaviour
 {
     public void NextScene()
     {
-        SceneManager.LoadScene("Reddit");
+        if (SceneManager.GetActiveScene().name == "Win") {
+          SceneManager.LoadScene("Home");
+        }
+        else {
+          SceneManager.LoadScene("Reddit");
+        }
     }
 }
 
