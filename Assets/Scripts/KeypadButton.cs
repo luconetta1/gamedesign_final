@@ -51,6 +51,7 @@ public class KeypadButton : MonoBehaviour
       doneFourth  = false;
       notepad.text = "";
       progress     = "";
+      Debug.Log("RESET");
     }
     
     private void changeHidden() {

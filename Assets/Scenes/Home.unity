@@ -604,8 +604,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d44ae2d283cd942d680e2ae5f231374b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputDisplay: {fileID: 0}
-  notepad: {fileID: 0}
+  inputDisplay: {fileID: 803663630}
+  notepad: {fileID: 1287944299}
 --- !u!1 &803663628
 GameObject:
   m_ObjectHideFlags: 0
