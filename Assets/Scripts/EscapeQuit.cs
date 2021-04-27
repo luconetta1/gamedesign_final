@@ -17,7 +17,7 @@ public class EscapeQuit : MonoBehaviour
     {
       //go to main page when escape key pressed
       if (Input.GetKey ("escape")) {
-        SceneManager.LoadScene("Home");
+        SceneManager.LoadScene("Play");
       }
         
     }
