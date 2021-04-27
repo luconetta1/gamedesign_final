@@ -169,4 +169,8 @@ public class BackButton : MonoBehaviour
           break;
       }
     }
+    
+    public void startOver() {
+      progress = 0;
+    }
 }

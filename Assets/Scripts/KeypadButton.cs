@@ -31,7 +31,11 @@ public class KeypadButton : MonoBehaviour
         InputCode = "";
         inputDisplay.text = "_ _ _ _";
         notepad.text = progress;
-        changeHidden();
+        string curr = SceneManager.GetActiveScene().name;
+        if ( curr == "Instagram" || curr == "Snapchat" || curr == "Reddit2" || curr == "Snapchat2a")
+        {
+          changeHidden();
+        }
         // buttonName = EventSystem.current.currentSelectedGameObject.name;
         // pos = buttonName.IndexOf("_");
         // buttonValue = buttonName.Substring(0, pos);
