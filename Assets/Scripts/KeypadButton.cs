@@ -24,6 +24,7 @@ public class KeypadButton : MonoBehaviour
     private static bool doneSecond = false;
     private static bool doneThird  = false;
     private static bool doneFourth = false;
+    private static bool madeReal   = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -52,9 +53,13 @@ public class KeypadButton : MonoBehaviour
       notepad.text = "";
       progress     = "";
       Debug.Log("RESET");
+      madeReal = true;
     }
     
     private void changeHidden() {
+      if (!madeReal) {
+        createCode();
+      }
       var x = GameObject.Find("Passcode Stuff");
       var hidden = x.transform.GetChild(0).gameObject.GetComponentInChildren<Text>();
       if (SceneManager.GetActiveScene().name == "Instagram") {
