@@ -292,6 +292,7 @@ GameObject:
   - component: {fileID: 361407158}
   - component: {fileID: 361407157}
   - component: {fileID: 361407161}
+  - component: {fileID: 361407162}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -396,6 +397,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 361407162}
+        m_MethodName: startOver
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &361407159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -447,6 +459,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputDisplay: {fileID: 1515232722}
   notepad: {fileID: 1515232722}
+--- !u!114 &361407162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361407155}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c1d192b0b9484620ad705235d2b3eeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextButton: {fileID: 0}
 --- !u!1 &501842615
 GameObject:
   m_ObjectHideFlags: 0
