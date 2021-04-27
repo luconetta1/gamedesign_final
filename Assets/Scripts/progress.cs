@@ -38,9 +38,9 @@ public class progress : MonoBehaviour {
         if(current_scene.name == "Reddit"){
             return 0;
         } else if(current_scene.name == "Snapchat" || current_scene.name == "Snapchat1a"){
-            return 1/total_scenes;
-        }else if(current_scene.name == "Instagram"){
             return 2/total_scenes;
+        }else if(current_scene.name == "Instagram"){
+            return 1/total_scenes;
         }else if(current_scene.name == "Reddit2"){
             return 3/total_scenes;
         }else if(current_scene.name == "Snapchat2" || current_scene.name == "Snapchat2a"){
