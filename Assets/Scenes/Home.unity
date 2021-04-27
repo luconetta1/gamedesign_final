@@ -1352,7 +1352,7 @@ MonoBehaviour:
     app corresponds to a different\ntype of puzzle and will increase in \ndifficulty
     as you go.\n\nBe on the look out for a 4 DIGIT CODE\nthat will help you leave
     the phone!!\n\nDon't worry if you get a puzzle wrong...\nyou can always start
-    over!\n\nGood Luck!! Your first puzzle awaits you\nin Reddit!"
+    over!\n\nGood Luck!! Your first puzzle awaits you\nin Redeit!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

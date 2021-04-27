@@ -7,7 +7,7 @@ public class Start_Button : MonoBehaviour
 {
     public void NextScene()
     {
-        if (SceneManager.GetActiveScene().name == "Win") {
+        if (SceneManager.GetActiveScene().name == "Win" || SceneManager.GetActiveScene().name == "Play") {
           SceneManager.LoadScene("Home");
         }
         else {

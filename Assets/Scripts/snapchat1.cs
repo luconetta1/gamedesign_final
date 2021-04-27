@@ -37,9 +37,8 @@ public class snapchat1 : MonoBehaviour
     
     public void next_scene()
     {
-      int y = SceneManager.GetActiveScene().buildIndex; //current scene index
-      
-      if (y == 3) {
+      string currScene = SceneManager.GetActiveScene().name;
+      if (currScene == "Snapchat1a") {
         SceneManager.LoadScene("Message3");  //third message
       }
       else {

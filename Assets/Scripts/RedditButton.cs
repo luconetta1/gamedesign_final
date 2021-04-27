@@ -31,13 +31,13 @@ public class RedditButton : MonoBehaviour
 
   public void NextScene()
   {
-      int y = SceneManager.GetActiveScene().buildIndex;
+      string currScene = SceneManager.GetActiveScene().name;
       
-      //go to next snap2
-      if (y == 5) {
+      //go to fourth message
+      if (currScene == "Reddit2") {
         SceneManager.LoadScene("Message4");
       }
-      //or go to first message scene
+      //or go to first message scene after first reddit puzzle
       else {
         SceneManager.LoadScene("Message1");
       }
