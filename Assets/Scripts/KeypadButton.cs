@@ -86,8 +86,9 @@ public class KeypadButton : MonoBehaviour
         hidden.text = realCode[2] + "";
       }
       else if (SceneManager.GetActiveScene().name == "Snapchat2a") {
-        int[]      yCords       = new int[]{115,237,360,483,606,(int)pos.y};
+        int[]      yCords       = new int[]{-293,-170,-47,76,199,322};
         pos.y = yCords[UnityEngine.Random.Range(0,6)];
+        Debug.Log(pos.y);
         hiddenButton.transform.position = pos;
         hidden.text = realCode[3] + "";
       }
