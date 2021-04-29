@@ -71,7 +71,7 @@ public class KeypadButton : MonoBehaviour
       }
       else if (SceneManager.GetActiveScene().name == "Snapchat") {
         GameObject hiddenButton = x.transform.GetChild(0).gameObject;
-        Vector3 pos = hiddenButton.transform.position;
+        Vector3    pos          = hiddenButton.transform.position;
         pos.x += UnityEngine.Random.Range(-10.0f, 150.0f);
         pos.y += UnityEngine.Random.Range(-25.0f, 180.0f);
         hiddenButton.transform.position = pos;
@@ -81,6 +81,11 @@ public class KeypadButton : MonoBehaviour
         hidden.text = realCode[2] + "";
       }
       else if (SceneManager.GetActiveScene().name == "Snapchat2a") {
+        GameObject hiddenButton = x.transform.GetChild(0).gameObject;
+        Vector3    pos          = hiddenButton.transform.position;
+        int[]      yCords       = new int[]{115,237,360,483,606,(int)pos.y};
+        pos.y = yCords[UnityEngine.Random.Range(0,6)];
+        hiddenButton.transform.position = pos;
         hidden.text = realCode[3] + "";
       }
     }
