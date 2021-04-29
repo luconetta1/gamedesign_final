@@ -70,6 +70,11 @@ public class KeypadButton : MonoBehaviour
           hidden.text = realCode[0] + "";
       }
       else if (SceneManager.GetActiveScene().name == "Snapchat") {
+        GameObject hiddenButton = x.transform.GetChild(0).gameObject;
+        Vector3 pos = hiddenButton.transform.position;
+        pos.x += UnityEngine.Random.Range(-10.0f, 150.0f);
+        pos.y += UnityEngine.Random.Range(-25.0f, 180.0f);
+        hiddenButton.transform.position = pos;
         hidden.text = realCode[1] + "";
       }
       else if (SceneManager.GetActiveScene().name == "Reddit2") {
