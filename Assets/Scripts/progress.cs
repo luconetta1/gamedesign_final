@@ -11,6 +11,7 @@ public class progress : MonoBehaviour {
     public Text displayText;
     Scene current_scene;
     private static float total_scenes = 6;
+    private static int prog = 0;
 
     
     // Create a property to handle the slider's value
@@ -36,19 +37,25 @@ public class progress : MonoBehaviour {
 
         Debug.Log(current_scene.name);
         if(current_scene.name == "Reddit"){
-            return 0;
-        } else if(current_scene.name == "Snapchat" || current_scene.name == "Snapchat1a"){
-            return 2/total_scenes;
-        }else if(current_scene.name == "Instagram"){
-            return 1/total_scenes;
-        }else if(current_scene.name == "Reddit2"){
-            return 3/total_scenes;
-        }else if(current_scene.name == "Snapchat2" || current_scene.name == "Snapchat2a"){
-            return 4/total_scenes;
-        }else if(current_scene.name == "Instagram2"){
-            return 5/total_scenes;
+            prog = Mathf.Max(prog,0);
+        } else if(current_scene.name == "Message2"){
+            prog = Mathf.Max(prog,2);
+        }else if(current_scene.name == "Message1"){
+            prog = Mathf.Max(prog,1);
+        }else if(current_scene.name == "Message3"){
+            prog = Mathf.Max(prog,3);
+        }else if(current_scene.name == "Message4"){
+            prog = Mathf.Max(prog,4);
+        }else if(current_scene.name == "Message5"){
+            prog = Mathf.Max(prog,5);
+        }else if(current_scene.name == "Message6"){
+            prog = Mathf.Max(prog,6);
         }
-        return 0;
+        return prog/total_scenes;
+    }
+    
+    public void resetProgress() {
+      prog = 0;
     }
 }
 
