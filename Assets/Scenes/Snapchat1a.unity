@@ -1257,6 +1257,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   popup: {fileID: 1313720830}
+  ans1: {fileID: 86480417}
+  ans2: {fileID: 10699872}
+  correctAns: {fileID: 712362890}
+  ans4: {fileID: 1629695641}
+  ans5: {fileID: 1610235811}
+  ans6: {fileID: 221824051}
 --- !u!1 &769926823
 GameObject:
   m_ObjectHideFlags: 0
