@@ -13,6 +13,7 @@ public class KeypadButton : MonoBehaviour
     public static event Action<string> ButtonPressed = delegate{};
     public Text inputDisplay;
     public Text notepad;
+    public Text hiddenNum;
     
     
     private int pos;
@@ -68,29 +69,30 @@ public class KeypadButton : MonoBehaviour
         createCode();
       }
       var x = GameObject.Find("Passcode Stuff");
-      var hidden = x.transform.GetChild(0).gameObject.GetComponentInChildren<Text>();
+      //var hidden = x.transform.GetChild(0).gameObject.GetComponentInChildren<Text>();
+      //Debug.Log(hidden);
       GameObject hiddenButton = x.transform.GetChild(0).gameObject;
       Vector3    pos          = hiddenButton.transform.position;
       if (SceneManager.GetActiveScene().name == "Instagram") {
-          hidden.text = realCode[0] + "";
+          hiddenNum.text = realCode[0] + "";
       }
       else if (SceneManager.GetActiveScene().name == "Snapchat") {
         pos.x += UnityEngine.Random.Range(-10.0f, 150.0f);
         pos.y += UnityEngine.Random.Range(-25.0f, 180.0f);
         hiddenButton.transform.position = pos;
-        hidden.text = realCode[1] + "";
+        hiddenNum.text = realCode[1] + "";
       }
       else if (SceneManager.GetActiveScene().name == "Reddit2") {
         pos.y += UnityEngine.Random.Range(-90.0f, 30.0f);
         hiddenButton.transform.position = pos;
-        hidden.text = realCode[2] + "";
+        hiddenNum.text = realCode[2] + "";
       }
       else if (SceneManager.GetActiveScene().name == "Snapchat2a") {
         int[]      yCords       = new int[]{-293,-170,-47,76,199,322};
         pos.y = yCords[UnityEngine.Random.Range(0,6)];
         Debug.Log(pos.y);
         hiddenButton.transform.position = pos;
-        hidden.text = realCode[3] + "";
+        hiddenNum.text = realCode[3] + "";
       }
     }
     
@@ -198,14 +200,12 @@ public class KeypadButton : MonoBehaviour
     private void CheckResults()
     {
         Debug.Log(InputCode);
-        if(InputCode == realCode)    // CORRECT CODE HERE
+        if(InputCode == realCode) 
         {
-            Debug.Log("correct"); //Put scenes here
             SceneManager.LoadScene("Win");  //win the game
         }
         else
         {
-            Debug.Log("incorrect");
             inputDisplay.text = "INCORRECT";
         }
 

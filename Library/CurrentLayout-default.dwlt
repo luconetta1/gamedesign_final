@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1429
     height: 777
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 678, y: 492}
   m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 2748
+  controlID: 5135
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 2749
+  controlID: 5136
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 2750
+  controlID: 5137
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -322,10 +322,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -610.75
-    m_HBaseRangeMax: 610.75
-    m_VBaseRangeMin: -343.5
-    m_VBaseRangeMax: 343.5
+    m_HBaseRangeMin: -355.5
+    m_HBaseRangeMax: 355.5
+    m_VBaseRangeMin: -200
+    m_VBaseRangeMax: 200
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -343,23 +343,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1429
-      height: 687
+      width: 807
+      height: 400
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 714.5, y: 343.5}
+    m_Translation: {x: 403.5, y: 200}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -714.5
-      y: -343.5
-      width: 1429
-      height: 687
+      x: -403.5
+      y: -200
+      width: 807
+      height: 400
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 2858, y: 1416}
+  m_LastWindowPixelSize: {x: 1614, y: 842}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
@@ -394,9 +394,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 14330000
       m_LastClickedID: 0
-      m_ExpandedIDs: cefaffff5efbffffb83a0000243b0000
+      m_ExpandedIDs: 18f0ffff88f0ffffd0f0ffff18f1ffff98f1ffff34f2ffff96f2ffffd8f2ffff1af3ffff5cf3ffffb2f3ffffc8f3ffffe0f4fffff6f4ffff44f5ffffaaf7ffff04f8ffffd4f8ffffe2f9ffffd0faffff5efbffff6a3b0000a23b0000f23c00002e3d0000603e0000643e00000a3f0000143f0000f44200003043000030460000ce460000e64800004a4b0000ce4d0000c44f00000e5100000e540000e4550000aa560000ee58000050590000aa590000b4590000f65b0000105c00001c5c0000a05c00001e5e00003c5e00004060000062600000e26100004e6200005262000076620000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -456,9 +456,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 138.2889, y: 88.17095, z: -5786.3315}
+    m_Target: {x: -1.5957012, y: 12.107367, z: -6681.179}
     speed: 2
-    m_Value: {x: 138.2889, y: 88.17095, z: -5786.3315}
+    m_Value: {x: -1.5957012, y: 12.107367, z: -6681.179}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -508,9 +508,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 454.91287
+    m_Target: 433.97382
     speed: 2
-    m_Value: 454.91287
+    m_Value: 430.10284
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -600,20 +600,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/jessicanordlund/Documents/Computer Science/GameDesign/PhoneGame/gamedesign_final
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 503a0000
-    m_LastClickedID: 14928
-    m_ExpandedIDs: 00000000463a0000483a00004a3a000000ca9a3b
+    m_SelectedIDs: 0c3b0000
+    m_LastClickedID: 15116
+    m_ExpandedIDs: 00000000003b0000023b0000043b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -641,7 +641,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000463a0000483a00004a3a000000ca9a3b
+    m_ExpandedIDs: 00000000003b0000023b0000043b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -668,7 +668,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000363d00009a400000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

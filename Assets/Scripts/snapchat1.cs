@@ -72,7 +72,6 @@ public class snapchat1 : MonoBehaviour
         }
         buttons[i].transform.position = positions[j];
         beenUsed[j] = true;
-        Debug.Log(i);
       }
     }
 }

@@ -4283,6 +4283,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputDisplay: {fileID: 404139405}
   notepad: {fileID: 1803392537}
+  hiddenNum: {fileID: 1757875632}
 --- !u!114 &1492615323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4845,6 +4846,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputDisplay: {fileID: 404139405}
   notepad: {fileID: 1803392537}
+  hiddenNum: {fileID: 1757875632}
 --- !u!114 &1803392537
 MonoBehaviour:
   m_ObjectHideFlags: 0

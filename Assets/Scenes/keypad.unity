@@ -422,6 +422,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputDisplay: {fileID: 265449788}
   notepad: {fileID: 1092140777}
+  hiddenNum: {fileID: 1159403697}
 --- !u!1 &265449786
 GameObject:
   m_ObjectHideFlags: 0
@@ -662,6 +663,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputDisplay: {fileID: 265449788}
   notepad: {fileID: 1092140777}
+  hiddenNum: {fileID: 1159403697}
 --- !u!114 &455074725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -807,6 +809,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputDisplay: {fileID: 265449788}
   notepad: {fileID: 1092140777}
+  hiddenNum: {fileID: 1159403697}
 --- !u!114 &614144204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1108,6 +1111,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputDisplay: {fileID: 265449788}
   notepad: {fileID: 1092140777}
+  hiddenNum: {fileID: 1159403697}
 --- !u!114 &975770499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1253,6 +1257,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputDisplay: {fileID: 265449788}
   notepad: {fileID: 1092140777}
+  hiddenNum: {fileID: 1159403697}
 --- !u!114 &1030671286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1540,6 +1545,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputDisplay: {fileID: 1159403697}
   notepad: {fileID: 1092140777}
+  hiddenNum: {fileID: 1159403697}
 --- !u!114 &1092140777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1954,6 +1960,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputDisplay: {fileID: 265449788}
   notepad: {fileID: 1092140777}
+  hiddenNum: {fileID: 1159403697}
 --- !u!114 &1290139892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2177,6 +2184,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputDisplay: {fileID: 265449788}
   notepad: {fileID: 1092140777}
+  hiddenNum: {fileID: 1159403697}
 --- !u!114 &1341764788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2603,6 +2611,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputDisplay: {fileID: 265449788}
   notepad: {fileID: 1092140777}
+  hiddenNum: {fileID: 1159403697}
 --- !u!114 &1616223268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3033,6 +3042,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputDisplay: {fileID: 265449788}
   notepad: {fileID: 1092140777}
+  hiddenNum: {fileID: 1159403697}
 --- !u!114 &1757043983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3334,6 +3344,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputDisplay: {fileID: 265449788}
   notepad: {fileID: 1092140777}
+  hiddenNum: {fileID: 1159403697}
 --- !u!114 &1988127834
 MonoBehaviour:
   m_ObjectHideFlags: 0

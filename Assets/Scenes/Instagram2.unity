@@ -2696,6 +2696,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputDisplay: {fileID: 207352761}
   notepad: {fileID: 746157608}
+  hiddenNum: {fileID: 207352761}
 --- !u!114 &746157608
 MonoBehaviour:
   m_ObjectHideFlags: 0

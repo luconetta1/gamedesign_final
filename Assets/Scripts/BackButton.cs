@@ -20,9 +20,6 @@ public class BackButton : MonoBehaviour
       };
       
       string currLevel = SceneManager.GetActiveScene().name;
-      Debug.Log(currLevel);
-      Debug.Log(progress);
-      Debug.Log(levels[currLevel]);
       if (progress >= levels[currLevel]) {
         nextButton.SetActive(true);
       }
