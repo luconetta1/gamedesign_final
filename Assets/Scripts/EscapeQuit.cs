@@ -7,6 +7,7 @@ using UnityEngine.EventSystems;
 public class EscapeQuit : MonoBehaviour
 {
     private static string lastScene;
+    public AudioSource click;
 
     // Update is called once per frame
     void Update()
@@ -20,10 +21,12 @@ public class EscapeQuit : MonoBehaviour
     }
     
     public void resumeGame() {
+      click.Play();
       SceneManager.LoadScene(lastScene);
     }
     
     public void QuitGame() {
+        click.Play();
         #if UNITY_EDITOR 
         UnityEditor.EditorApplication.isPlaying = false; 
         #else 

@@ -320,6 +320,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b62bd6feed83486694d8703e17a8500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  click: {fileID: 146277564}
   button: {fileID: 98456638}
   feedback: {fileID: 21300000, guid: eee8a1f77578e4421b3e30ee382ff0a0, type: 3}
   original: {fileID: 21300000, guid: f75131f92400040739efa7f133e3ee6a, type: 3}
@@ -547,6 +548,133 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 98715177}
   m_CullTransparentMesh: 0
+--- !u!1 &146277562
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 146277563}
+  - component: {fileID: 146277564}
+  m_Layer: 0
+  m_Name: Click
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &146277563
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146277562}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 313.0139, y: -3.7158928, z: -7019.109}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1759256201}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &146277564
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146277562}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: efdbe5a91bc2242b78a2832c91f44476, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &223463858
 GameObject:
   m_ObjectHideFlags: 0
@@ -2331,6 +2459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b62bd6feed83486694d8703e17a8500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  click: {fileID: 146277564}
   button: {fileID: 1234244963}
   feedback: {fileID: 21300000, guid: eee8a1f77578e4421b3e30ee382ff0a0, type: 3}
   original: {fileID: 21300000, guid: f75131f92400040739efa7f133e3ee6a, type: 3}
@@ -2723,6 +2852,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b62bd6feed83486694d8703e17a8500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  click: {fileID: 146277564}
   button: {fileID: 1234244963}
   feedback: {fileID: 21300000, guid: eee8a1f77578e4421b3e30ee382ff0a0, type: 3}
   original: {fileID: 21300000, guid: f75131f92400040739efa7f133e3ee6a, type: 3}
@@ -2901,6 +3031,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b62bd6feed83486694d8703e17a8500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  click: {fileID: 146277564}
   button: {fileID: 1424746397}
   feedback: {fileID: 21300000, guid: a655415dfa00f424e9322198b2040ea3, type: 3}
   original: {fileID: 21300000, guid: 439a28a8eeb7b4411adc5a3834b29374, type: 3}
@@ -3122,6 +3253,7 @@ MonoBehaviour:
   inputDisplay: {fileID: 396093429}
   notepad: {fileID: 1506086325}
   hiddenNum: {fileID: 396093429}
+  click: {fileID: 0}
 --- !u!114 &1506086325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3481,6 +3613,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b62bd6feed83486694d8703e17a8500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  click: {fileID: 146277564}
   button: {fileID: 1424746397}
   feedback: {fileID: 21300000, guid: a655415dfa00f424e9322198b2040ea3, type: 3}
   original: {fileID: 21300000, guid: 439a28a8eeb7b4411adc5a3834b29374, type: 3}
@@ -3640,6 +3773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b62bd6feed83486694d8703e17a8500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  click: {fileID: 146277564}
   button: {fileID: 98456638}
   feedback: {fileID: 21300000, guid: eee8a1f77578e4421b3e30ee382ff0a0, type: 3}
   original: {fileID: 21300000, guid: f75131f92400040739efa7f133e3ee6a, type: 3}
@@ -4101,6 +4235,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b62bd6feed83486694d8703e17a8500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  click: {fileID: 146277564}
   button: {fileID: 1692589952}
   feedback: {fileID: 21300000, guid: a655415dfa00f424e9322198b2040ea3, type: 3}
   original: {fileID: 21300000, guid: 439a28a8eeb7b4411adc5a3834b29374, type: 3}
@@ -4275,7 +4410,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 146277563}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4291,6 +4427,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07930c004fdcd400d9f1ade98e9d920a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  click: {fileID: 0}
 --- !u!1 &1850907222
 GameObject:
   m_ObjectHideFlags: 0
@@ -4708,6 +4845,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b62bd6feed83486694d8703e17a8500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  click: {fileID: 146277564}
   button: {fileID: 1692589952}
   feedback: {fileID: 21300000, guid: a655415dfa00f424e9322198b2040ea3, type: 3}
   original: {fileID: 21300000, guid: 439a28a8eeb7b4411adc5a3834b29374, type: 3}

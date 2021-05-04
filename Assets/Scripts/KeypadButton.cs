@@ -14,7 +14,7 @@ public class KeypadButton : MonoBehaviour
     public Text inputDisplay;
     public Text notepad;
     public Text hiddenNum;
-    
+    public AudioSource click;
     
     private int pos;
     private string buttonName, buttonValue;
@@ -131,6 +131,7 @@ public class KeypadButton : MonoBehaviour
 
     public void button_click(Button btn)
     {
+        click.Play();
         buttonName = btn.name;
         pos = buttonName.IndexOf("_");
         buttonValue = buttonName.Substring(0, pos);

@@ -152,6 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07930c004fdcd400d9f1ade98e9d920a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  click: {fileID: 0}
 --- !u!81 &452758764
 AudioListener:
   m_ObjectHideFlags: 0
@@ -939,6 +940,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   popup: {fileID: 1216048959}
+  ding: {fileID: 2051433337}
   ans1: {fileID: 1405948857}
   ans2: {fileID: 1405948857}
   correctAns: {fileID: 1405948857}
@@ -1672,6 +1674,7 @@ MonoBehaviour:
   inputDisplay: {fileID: 1405948859}
   notepad: {fileID: 1691837203}
   hiddenNum: {fileID: 1405948859}
+  click: {fileID: 0}
 --- !u!114 &1691837203
 MonoBehaviour:
   m_ObjectHideFlags: 0

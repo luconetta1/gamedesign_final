@@ -12,6 +12,7 @@ public class message : MonoBehaviour
     public static GameObject message2;
     public static GameObject message3;
     public GameObject nextButton;
+    public AudioSource click;
     //can use more/less messages depending on scene
 
    // public AudioSource ding;
@@ -64,5 +65,9 @@ public class message : MonoBehaviour
       else if ( currScene == "Message6") {
         SceneManager.LoadScene("keypad");  //Insta Level 2
       }
+    }
+    
+    public void playClick() {
+      click.Play();
     }
 }

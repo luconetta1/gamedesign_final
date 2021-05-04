@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class snapchat1 : MonoBehaviour
 {
     public GameObject popup;
-    //public AudioSource ding;
+    public AudioSource ding;
     public GameObject ans1;
     public GameObject ans2;
     public GameObject correctAns;
@@ -27,7 +27,7 @@ public class snapchat1 : MonoBehaviour
     void POP()
     {
          popup.SetActive(true);
-         //ding.Play();
+         ding.Play();
     }
 
     public void to_chat() 

@@ -247,6 +247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b62bd6feed83486694d8703e17a8500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  click: {fileID: 1012557246}
   button: {fileID: 183539205}
   feedback: {fileID: 21300000, guid: a655415dfa00f424e9322198b2040ea3, type: 3}
   original: {fileID: 21300000, guid: 439a28a8eeb7b4411adc5a3834b29374, type: 3}
@@ -949,6 +950,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b62bd6feed83486694d8703e17a8500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  click: {fileID: 1012557246}
   button: {fileID: 1538301241}
   feedback: {fileID: 21300000, guid: eee8a1f77578e4421b3e30ee382ff0a0, type: 3}
   original: {fileID: 21300000, guid: f75131f92400040739efa7f133e3ee6a, type: 3}
@@ -2183,6 +2185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b62bd6feed83486694d8703e17a8500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  click: {fileID: 1012557246}
   button: {fileID: 616190600}
   feedback: {fileID: 21300000, guid: a655415dfa00f424e9322198b2040ea3, type: 3}
   original: {fileID: 21300000, guid: 439a28a8eeb7b4411adc5a3834b29374, type: 3}
@@ -2951,6 +2954,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b62bd6feed83486694d8703e17a8500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  click: {fileID: 1012557246}
   button: {fileID: 616190600}
   feedback: {fileID: 21300000, guid: a655415dfa00f424e9322198b2040ea3, type: 3}
   original: {fileID: 21300000, guid: 439a28a8eeb7b4411adc5a3834b29374, type: 3}
@@ -3190,6 +3194,133 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1012557244
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1012557245}
+  - component: {fileID: 1012557246}
+  m_Layer: 0
+  m_Name: Click
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1012557245
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012557244}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 313.0139, y: -3.7158928, z: -7019.109}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1868068374}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1012557246
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012557244}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: efdbe5a91bc2242b78a2832c91f44476, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1055644490
 GameObject:
   m_ObjectHideFlags: 0
@@ -3694,6 +3825,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b62bd6feed83486694d8703e17a8500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  click: {fileID: 1012557246}
   button: {fileID: 1190653288}
   feedback: {fileID: 21300000, guid: eee8a1f77578e4421b3e30ee382ff0a0, type: 3}
   original: {fileID: 21300000, guid: f75131f92400040739efa7f133e3ee6a, type: 3}
@@ -4242,6 +4374,7 @@ GameObject:
   - component: {fileID: 1492615324}
   - component: {fileID: 1492615323}
   - component: {fileID: 1492615322}
+  - component: {fileID: 1492615326}
   m_Layer: 0
   m_Name: PasscodeDigit
   m_TagString: Untagged
@@ -4284,6 +4417,7 @@ MonoBehaviour:
   inputDisplay: {fileID: 404139405}
   notepad: {fileID: 1803392537}
   hiddenNum: {fileID: 1757875632}
+  click: {fileID: 1012557246}
 --- !u!114 &1492615323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4338,6 +4472,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1492615326}
+        m_MethodName: clickNoise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1492615324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4375,6 +4520,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1492615320}
   m_CullTransparentMesh: 0
+--- !u!114 &1492615326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492615320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8770c877b886e45b2be40c57d82c847c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  click: {fileID: 1012557246}
 --- !u!1 &1538301237
 GameObject:
   m_ObjectHideFlags: 0
@@ -4440,6 +4598,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b62bd6feed83486694d8703e17a8500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  click: {fileID: 1012557246}
   button: {fileID: 1538301241}
   feedback: {fileID: 21300000, guid: eee8a1f77578e4421b3e30ee382ff0a0, type: 3}
   original: {fileID: 21300000, guid: f75131f92400040739efa7f133e3ee6a, type: 3}
@@ -4622,6 +4781,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b62bd6feed83486694d8703e17a8500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  click: {fileID: 1012557246}
   button: {fileID: 183539205}
   feedback: {fileID: 21300000, guid: a655415dfa00f424e9322198b2040ea3, type: 3}
   original: {fileID: 21300000, guid: 439a28a8eeb7b4411adc5a3834b29374, type: 3}
@@ -4847,6 +5007,7 @@ MonoBehaviour:
   inputDisplay: {fileID: 404139405}
   notepad: {fileID: 1803392537}
   hiddenNum: {fileID: 1757875632}
+  click: {fileID: 0}
 --- !u!114 &1803392537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4952,6 +5113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07930c004fdcd400d9f1ade98e9d920a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  click: {fileID: 0}
 --- !u!81 &1868068372
 AudioListener:
   m_ObjectHideFlags: 0
@@ -5013,7 +5175,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1012557245}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5416,6 +5579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b62bd6feed83486694d8703e17a8500, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  click: {fileID: 1012557246}
   button: {fileID: 1190653288}
   feedback: {fileID: 21300000, guid: eee8a1f77578e4421b3e30ee382ff0a0, type: 3}
   original: {fileID: 21300000, guid: f75131f92400040739efa7f133e3ee6a, type: 3}

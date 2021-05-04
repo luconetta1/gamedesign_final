@@ -8,6 +8,7 @@ using UnityEngine.UI;
 
 public class RedditButton : MonoBehaviour
 {
+  public AudioSource click;
 
   public static int b1 = 0;
   public static int b2 = 0;
@@ -47,41 +48,49 @@ public class RedditButton : MonoBehaviour
   }
 
   public void setb1(){
+    click.Play();
     b1 = 1;
     button.GetComponent<Image>().sprite = feedback;
   }
 
   public void resetb1(){
+    click.Play();
     b1 = 0;
     button.GetComponent<Image>().sprite = original;
   }
 
    public void setb2(){
+    click.Play();
     b2 = 1;
     button.GetComponent<Image>().sprite = feedback;
   }
 
   public void resetb2(){
+    click.Play();
     b2 = 0;
     button.GetComponent<Image>().sprite = original;
   }
 
    public void setb3(){
+    click.Play();
     b3 = 1;
     button.GetComponent<Image>().sprite = feedback;
   }
 
   public void resetb3(){
+    click.Play();
     b3 = 0;
     button.GetComponent<Image>().sprite = original;
   }
 
    public void setb4(){
+    click.Play();
     b4 = 1;
     button.GetComponent<Image>().sprite = feedback;
   }
 
   public void resetb4(){
+    click.Play();
     b4 = 0;
     button.GetComponent<Image>().sprite = original;
   }

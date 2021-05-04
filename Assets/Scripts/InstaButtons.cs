@@ -6,6 +6,9 @@ using UnityEngine.EventSystems;
 
 public class InstaButtons : MonoBehaviour
 {
+  
+    public AudioSource click;
+  
     public void findNextScene() {
       if (SceneManager.GetActiveScene().name == "Instagram") {
         if (EventSystem.current.currentSelectedGameObject.name == "Comment") {
@@ -23,5 +26,9 @@ public class InstaButtons : MonoBehaviour
           SceneManager.LoadScene("Lose");  // lose scene
         }
       }
+    }
+    
+    public void clickNoise() {
+      click.Play();
     }
 }

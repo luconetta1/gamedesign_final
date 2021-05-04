@@ -220,6 +220,7 @@ GameObject:
   - component: {fileID: 10699875}
   - component: {fileID: 10699874}
   - component: {fileID: 10699877}
+  - component: {fileID: 10699878}
   m_Layer: 5
   m_Name: 2
   m_TagString: Untagged
@@ -301,6 +302,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 10699878}
+        m_MethodName: clickNoise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &10699875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -350,6 +362,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 979731358378e4a15ad29e0a95ebd328, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &10699878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10699872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8770c877b886e45b2be40c57d82c847c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  click: {fileID: 448824418}
 --- !u!1 &86480417
 GameObject:
   m_ObjectHideFlags: 0
@@ -363,6 +388,7 @@ GameObject:
   - component: {fileID: 86480420}
   - component: {fileID: 86480419}
   - component: {fileID: 86480422}
+  - component: {fileID: 86480423}
   m_Layer: 5
   m_Name: 1
   m_TagString: Untagged
@@ -444,6 +470,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 86480423}
+        m_MethodName: clickNoise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &86480420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -493,6 +530,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 979731358378e4a15ad29e0a95ebd328, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &86480423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86480417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8770c877b886e45b2be40c57d82c847c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  click: {fileID: 448824418}
 --- !u!1 &145631530
 GameObject:
   m_ObjectHideFlags: 0
@@ -584,6 +634,7 @@ GameObject:
   - component: {fileID: 221824054}
   - component: {fileID: 221824053}
   - component: {fileID: 221824056}
+  - component: {fileID: 221824057}
   m_Layer: 5
   m_Name: 6
   m_TagString: Untagged
@@ -665,6 +716,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 221824057}
+        m_MethodName: clickNoise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &221824054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -714,6 +776,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 979731358378e4a15ad29e0a95ebd328, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &221824057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221824051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8770c877b886e45b2be40c57d82c847c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  click: {fileID: 448824418}
 --- !u!1 &317418117
 GameObject:
   m_ObjectHideFlags: 0
@@ -980,6 +1055,133 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 424412035}
   m_CullTransparentMesh: 0
+--- !u!1 &448824417
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 448824419}
+  - component: {fileID: 448824418}
+  m_Layer: 0
+  m_Name: Click
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &448824418
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448824417}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: efdbe5a91bc2242b78a2832c91f44476, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &448824419
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448824417}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 313.0139, y: -3.7158928, z: -7019.109}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 977267037}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &658276875
 GameObject:
   m_ObjectHideFlags: 0
@@ -1025,6 +1227,7 @@ GameObject:
   - component: {fileID: 712362893}
   - component: {fileID: 712362892}
   - component: {fileID: 712362895}
+  - component: {fileID: 712362896}
   m_Layer: 5
   m_Name: 3
   m_TagString: Untagged
@@ -1106,6 +1309,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 712362896}
+        m_MethodName: clickNoise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &712362893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1156,12 +1370,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   popup: {fileID: 1313720830}
+  ding: {fileID: 0}
   ans1: {fileID: 86480417}
   ans2: {fileID: 10699872}
   correctAns: {fileID: 712362890}
   ans4: {fileID: 1629695641}
   ans5: {fileID: 1610235811}
   ans6: {fileID: 221824051}
+--- !u!114 &712362896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 712362890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8770c877b886e45b2be40c57d82c847c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  click: {fileID: 448824418}
 --- !u!1 &769926823
 GameObject:
   m_ObjectHideFlags: 0
@@ -1533,7 +1761,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 448824419}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1549,6 +1778,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07930c004fdcd400d9f1ade98e9d920a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  click: {fileID: 0}
 --- !u!1 &989264456
 GameObject:
   m_ObjectHideFlags: 0
@@ -2318,6 +2548,7 @@ MonoBehaviour:
   inputDisplay: {fileID: 2120606810}
   notepad: {fileID: 1303195928}
   hiddenNum: {fileID: 2120606810}
+  click: {fileID: 0}
 --- !u!114 &1303195928
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2489,6 +2720,7 @@ GameObject:
   - component: {fileID: 1610235814}
   - component: {fileID: 1610235813}
   - component: {fileID: 1610235816}
+  - component: {fileID: 1610235817}
   m_Layer: 5
   m_Name: 5
   m_TagString: Untagged
@@ -2570,6 +2802,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1610235817}
+        m_MethodName: clickNoise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1610235814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2619,6 +2862,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 979731358378e4a15ad29e0a95ebd328, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1610235817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610235811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8770c877b886e45b2be40c57d82c847c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  click: {fileID: 448824418}
 --- !u!1 &1629695641
 GameObject:
   m_ObjectHideFlags: 0
@@ -2632,6 +2888,7 @@ GameObject:
   - component: {fileID: 1629695644}
   - component: {fileID: 1629695643}
   - component: {fileID: 1629695646}
+  - component: {fileID: 1629695647}
   m_Layer: 5
   m_Name: 4
   m_TagString: Untagged
@@ -2713,6 +2970,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1629695647}
+        m_MethodName: clickNoise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1629695644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2762,6 +3030,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 979731358378e4a15ad29e0a95ebd328, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1629695647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629695641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8770c877b886e45b2be40c57d82c847c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  click: {fileID: 448824418}
 --- !u!1 &1803287684
 GameObject:
   m_ObjectHideFlags: 0
