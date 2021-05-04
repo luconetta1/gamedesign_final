@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 100306371}
   - component: {fileID: 100306370}
   - component: {fileID: 100306369}
+  - component: {fileID: 100306373}
   m_Layer: 5
   m_Name: Search
   m_TagString: Untagged
@@ -173,6 +174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8770c877b886e45b2be40c57d82c847c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camerashaker: {fileID: 0}
 --- !u!114 &100306370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -264,6 +266,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 100306367}
   m_CullTransparentMesh: 0
+--- !u!114 &100306373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100306367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e4f7270960d74047a4db021c37219dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &108279962
 GameObject:
   m_ObjectHideFlags: 0
@@ -1209,6 +1223,7 @@ GameObject:
   - component: {fileID: 516351038}
   - component: {fileID: 516351037}
   - component: {fileID: 516351040}
+  - component: {fileID: 516351041}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1291,6 +1306,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 07930c004fdcd400d9f1ade98e9d920a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &516351041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516351036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e4f7270960d74047a4db021c37219dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &524648437
@@ -1860,6 +1887,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8770c877b886e45b2be40c57d82c847c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camerashaker: {fileID: 0}
 --- !u!114 &635597229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2656,6 +2684,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8770c877b886e45b2be40c57d82c847c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camerashaker: {fileID: 0}
 --- !u!114 &919895587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3723,6 +3752,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8770c877b886e45b2be40c57d82c847c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camerashaker: {fileID: 0}
 --- !u!114 &1187033085
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4616,6 +4646,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8770c877b886e45b2be40c57d82c847c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camerashaker: {fileID: 0}
 --- !u!114 &1604473500
 MonoBehaviour:
   m_ObjectHideFlags: 0

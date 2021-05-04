@@ -5,9 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class RedditWrong : MonoBehaviour
 {
+
+  
   public void NextScene()
   {
-    //you lose
+    
     SceneManager.LoadScene("Lose");
   }
 }
