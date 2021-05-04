@@ -62,4 +62,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/keypad.unity
     guid: b7ac12e6dbf6d4b0a92346757f8efeec
+  - enabled: 1
+    path: Assets/Scenes/Pause.unity
+    guid: a28bb51766b674263a9f0c9d137c9c7e
   m_configObjects: {}

@@ -6,19 +6,20 @@ using UnityEngine.EventSystems;
 
 public class EscapeQuit : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private static string lastScene;
 
     // Update is called once per frame
     void Update()
     {
       //go to main page when escape key pressed
       if (Input.GetKey ("escape")) {
-        SceneManager.LoadScene("Play");
+        lastScene = SceneManager.GetActiveScene().name;
+        SceneManager.LoadScene("Pause");
       }
         
+    }
+    
+    public void resumeGame() {
+      SceneManager.LoadScene(lastScene);
     }
 }

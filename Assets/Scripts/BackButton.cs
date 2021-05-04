@@ -16,7 +16,7 @@ public class BackButton : MonoBehaviour
         {"Snapchat1a", 7}, {"Message3", 8}, {"Reddit2", 9},
         {"Message4", 10}, {"Snapchat2", 11}, {"Snapchat2a", 12},
         {"Message5", 13}, {"Instagram2", 14}, {"Message6", 15},
-        {"keypad", 0}, {"Lose", 0}
+        {"keypad", 0}, {"Lose", 0}, {"Pause", 0}
       };
       
       string currLevel = SceneManager.GetActiveScene().name;
