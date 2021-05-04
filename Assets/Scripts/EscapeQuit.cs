@@ -22,4 +22,12 @@ public class EscapeQuit : MonoBehaviour
     public void resumeGame() {
       SceneManager.LoadScene(lastScene);
     }
+    
+    public void QuitGame() {
+        #if UNITY_EDITOR 
+        UnityEditor.EditorApplication.isPlaying = false; 
+        #else 
+        Application.Quit(); 
+        #endif
+    }
 }
