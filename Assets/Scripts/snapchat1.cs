@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class snapchat1 : MonoBehaviour
 {
@@ -14,13 +16,30 @@ public class snapchat1 : MonoBehaviour
     public GameObject ans5;
     public GameObject ans6;
     
+    private static int i,j;
+    private string[] nickNames = new string[]{"knickknack", "nickelBack", "persnickety00"};
+    private string[] sNames    = new string[]{"blackCat19", "hexGurl", "covenGirl03"};
+    
     void Start()
     {
-        randomOrder();
-        popup = GameObject.Find("popup");
-        popup.SetActive(false); 
+        string currScene = SceneManager.GetActiveScene().name;
+        if (currScene == "Snapchat" || currScene == "Snapchat2") {
+          popup = GameObject.Find("popup");
+          popup.SetActive(false); 
 
-        Invoke("POP", 2.0f);
+          Invoke("POP", 2.0f);
+        }
+        else if (currScene == "Snapchat1a" || currScene == "Snapchat2a") {
+          randomOrder();
+        }
+        
+        
+        if (currScene == "Snapchat1a") {
+          correctAns.GetComponentInChildren<Text>().text = nickNames[i];
+        }
+        else if (currScene == "Snapchat2a") {
+          correctAns.GetComponentInChildren<Text>().text = sNames[j];
+        }
       
     }
 
@@ -73,5 +92,10 @@ public class snapchat1 : MonoBehaviour
         buttons[i].transform.position = positions[j];
         beenUsed[j] = true;
       }
+    }
+    
+    public void setI() {
+      i  = UnityEngine.Random.Range(0,nickNames.Length);
+      j  = UnityEngine.Random.Range(0,sNames.Length);
     }
 }

@@ -764,6 +764,7 @@ GameObject:
   - component: {fileID: 696019910}
   - component: {fileID: 696019911}
   - component: {fileID: 696019912}
+  - component: {fileID: 696019913}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -923,6 +924,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 696019913}
+        m_MethodName: setI
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &696019906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1043,6 +1055,26 @@ MonoBehaviour:
   home: {fileID: 0}
   like: {fileID: 0}
   post: {fileID: 0}
+--- !u!114 &696019913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696019902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2e85362b1ebb4805b1a18f5ef652899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popup: {fileID: 803663628}
+  ding: {fileID: 0}
+  ans1: {fileID: 803663628}
+  ans2: {fileID: 803663628}
+  correctAns: {fileID: 803663628}
+  ans4: {fileID: 803663628}
+  ans5: {fileID: 803663628}
+  ans6: {fileID: 803663628}
 --- !u!1 &723351139
 GameObject:
   m_ObjectHideFlags: 0

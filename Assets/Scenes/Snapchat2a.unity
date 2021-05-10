@@ -289,6 +289,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   click: {fileID: 1849260819}
+  search: {fileID: 0}
+  shop: {fileID: 0}
+  home: {fileID: 0}
+  comment: {fileID: 0}
+  like: {fileID: 0}
+  post: {fileID: 0}
 --- !u!1 &72476106
 GameObject:
   m_ObjectHideFlags: 0
@@ -962,10 +968,10 @@ MonoBehaviour:
   ding: {fileID: 0}
   ans1: {fileID: 850591383}
   ans2: {fileID: 1094410519}
-  correctAns: {fileID: 1910196614}
+  correctAns: {fileID: 451462378}
   ans4: {fileID: 39629247}
   ans5: {fileID: 461647838}
-  ans6: {fileID: 451462378}
+  ans6: {fileID: 1910196614}
 --- !u!114 &451462381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1081,6 +1087,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   click: {fileID: 1849260819}
+  search: {fileID: 0}
+  shop: {fileID: 0}
+  home: {fileID: 0}
+  comment: {fileID: 0}
+  like: {fileID: 0}
+  post: {fileID: 0}
 --- !u!1 &461647838
 GameObject:
   m_ObjectHideFlags: 0
@@ -1249,6 +1261,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   click: {fileID: 1849260819}
+  search: {fileID: 0}
+  shop: {fileID: 0}
+  home: {fileID: 0}
+  comment: {fileID: 0}
+  like: {fileID: 0}
+  post: {fileID: 0}
 --- !u!1 &466847489
 GameObject:
   m_ObjectHideFlags: 0
@@ -1732,6 +1750,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   click: {fileID: 1849260819}
+  search: {fileID: 0}
+  shop: {fileID: 0}
+  home: {fileID: 0}
+  comment: {fileID: 0}
+  like: {fileID: 0}
+  post: {fileID: 0}
 --- !u!1 &793532209
 GameObject:
   m_ObjectHideFlags: 0
@@ -1935,6 +1959,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   click: {fileID: 1849260819}
+  search: {fileID: 0}
+  shop: {fileID: 0}
+  home: {fileID: 0}
+  comment: {fileID: 0}
+  like: {fileID: 0}
+  post: {fileID: 0}
 --- !u!1 &908046235
 GameObject:
   m_ObjectHideFlags: 0
@@ -2638,6 +2668,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   click: {fileID: 1849260819}
+  search: {fileID: 0}
+  shop: {fileID: 0}
+  home: {fileID: 0}
+  comment: {fileID: 0}
+  like: {fileID: 0}
+  post: {fileID: 0}
 --- !u!1 &1127608475
 GameObject:
   m_ObjectHideFlags: 0
@@ -3601,6 +3637,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   click: {fileID: 1849260819}
+  search: {fileID: 0}
+  shop: {fileID: 0}
+  home: {fileID: 0}
+  comment: {fileID: 0}
+  like: {fileID: 0}
+  post: {fileID: 0}
 --- !u!1 &1937440897
 GameObject:
   m_ObjectHideFlags: 0
