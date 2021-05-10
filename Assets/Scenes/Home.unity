@@ -763,6 +763,7 @@ GameObject:
   - component: {fileID: 696019909}
   - component: {fileID: 696019910}
   - component: {fileID: 696019911}
+  - component: {fileID: 696019912}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -900,6 +901,28 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 696019911}
+        m_MethodName: setI
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 696019912}
+        m_MethodName: setI
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &696019906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -993,6 +1016,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   click: {fileID: 1788132812}
+  search: {fileID: 0}
+  shop: {fileID: 0}
+  home: {fileID: 0}
+  comment: {fileID: 0}
+  like: {fileID: 0}
+  post: {fileID: 0}
+--- !u!114 &696019912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696019902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab65e547fb37f44f08fcde75f202b9af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image1: {fileID: 0}
+  image2: {fileID: 0}
+  image3: {fileID: 0}
+  image4: {fileID: 0}
+  search: {fileID: 0}
+  shop: {fileID: 0}
+  home: {fileID: 0}
+  like: {fileID: 0}
+  post: {fileID: 0}
 --- !u!1 &723351139
 GameObject:
   m_ObjectHideFlags: 0

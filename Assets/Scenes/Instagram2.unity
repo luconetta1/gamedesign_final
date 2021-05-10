@@ -1645,10 +1645,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab65e547fb37f44f08fcde75f202b9af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image1: {fileID: 21300000, guid: 6c17e27611dff48769c76a22cd5e863f, type: 3}
-  image2: {fileID: 21300000, guid: 442e0fd1fce2c40a6aed5275eaf99c2b, type: 3}
-  image3: {fileID: 21300000, guid: 5e4f693c00e2f47c782dd15102376a66, type: 3}
-  image4: {fileID: 21300000, guid: 7d9fb9846cf84446a9878f537524a890, type: 3}
+  image1: {fileID: 21300000, guid: 7d9fb9846cf84446a9878f537524a890, type: 3}
+  image2: {fileID: 21300000, guid: 5e4f693c00e2f47c782dd15102376a66, type: 3}
+  image3: {fileID: 21300000, guid: 6c17e27611dff48769c76a22cd5e863f, type: 3}
+  image4: {fileID: 21300000, guid: 5e6ce5882e7c54376995ba7e91332f8b, type: 3}
+  search: {fileID: 21300000, guid: 38d0a9fb57b59462c88719d75af31d20, type: 3}
+  shop: {fileID: 21300000, guid: ec34fcd5604b84467890d56d7e7f19c2, type: 3}
+  home: {fileID: 21300000, guid: b56658b2fd48d4e04a05dcd8795add87, type: 3}
+  like: {fileID: 21300000, guid: 442e0fd1fce2c40a6aed5275eaf99c2b, type: 3}
   post: {fileID: 358353961}
 --- !u!1 &493280009
 GameObject:
@@ -1663,6 +1667,7 @@ GameObject:
   - component: {fileID: 493280013}
   - component: {fileID: 493280012}
   - component: {fileID: 493280011}
+  - component: {fileID: 493280015}
   m_Layer: 5
   m_Name: Search
   m_TagString: Untagged
@@ -1703,6 +1708,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   click: {fileID: 760235625}
+  search: {fileID: 21300000, guid: 38d0a9fb57b59462c88719d75af31d20, type: 3}
+  shop: {fileID: 21300000, guid: ec34fcd5604b84467890d56d7e7f19c2, type: 3}
+  home: {fileID: 21300000, guid: b56658b2fd48d4e04a05dcd8795add87, type: 3}
+  comment: {fileID: 21300000, guid: 5e6ce5882e7c54376995ba7e91332f8b, type: 3}
+  like: {fileID: 21300000, guid: 442e0fd1fce2c40a6aed5275eaf99c2b, type: 3}
+  post: {fileID: 358353961}
 --- !u!114 &493280012
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1747,7 +1758,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 493280011}
-        m_MethodName: findNextScene
+        m_MethodName: clickNoise
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1757,8 +1768,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 493280011}
-        m_MethodName: clickNoise
+      - m_Target: {fileID: 493280015}
+        m_MethodName: nextScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1805,6 +1816,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 493280009}
   m_CullTransparentMesh: 0
+--- !u!114 &493280015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 493280009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab65e547fb37f44f08fcde75f202b9af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image1: {fileID: 21300000, guid: 7d9fb9846cf84446a9878f537524a890, type: 3}
+  image2: {fileID: 21300000, guid: 5e4f693c00e2f47c782dd15102376a66, type: 3}
+  image3: {fileID: 21300000, guid: 6c17e27611dff48769c76a22cd5e863f, type: 3}
+  image4: {fileID: 21300000, guid: 5e6ce5882e7c54376995ba7e91332f8b, type: 3}
+  search: {fileID: 21300000, guid: 38d0a9fb57b59462c88719d75af31d20, type: 3}
+  shop: {fileID: 21300000, guid: ec34fcd5604b84467890d56d7e7f19c2, type: 3}
+  home: {fileID: 21300000, guid: b56658b2fd48d4e04a05dcd8795add87, type: 3}
+  like: {fileID: 21300000, guid: 442e0fd1fce2c40a6aed5275eaf99c2b, type: 3}
+  post: {fileID: 358353961}
 --- !u!1 &502492836
 GameObject:
   m_ObjectHideFlags: 0
@@ -3229,6 +3261,7 @@ GameObject:
   - component: {fileID: 902916748}
   - component: {fileID: 902916747}
   - component: {fileID: 902916746}
+  - component: {fileID: 902916750}
   m_Layer: 5
   m_Name: Comment
   m_TagString: Untagged
@@ -3269,6 +3302,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   click: {fileID: 760235625}
+  search: {fileID: 0}
+  shop: {fileID: 0}
+  home: {fileID: 0}
+  comment: {fileID: 0}
+  like: {fileID: 0}
+  post: {fileID: 0}
 --- !u!114 &902916747
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3313,7 +3352,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 902916746}
-        m_MethodName: findNextScene
+        m_MethodName: clickNoise
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3323,8 +3362,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 902916746}
-        m_MethodName: clickNoise
+      - m_Target: {fileID: 902916750}
+        m_MethodName: nextScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3371,6 +3410,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 902916744}
   m_CullTransparentMesh: 0
+--- !u!114 &902916750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902916744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab65e547fb37f44f08fcde75f202b9af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image1: {fileID: 21300000, guid: 7d9fb9846cf84446a9878f537524a890, type: 3}
+  image2: {fileID: 21300000, guid: 5e4f693c00e2f47c782dd15102376a66, type: 3}
+  image3: {fileID: 21300000, guid: 6c17e27611dff48769c76a22cd5e863f, type: 3}
+  image4: {fileID: 21300000, guid: 5e6ce5882e7c54376995ba7e91332f8b, type: 3}
+  search: {fileID: 21300000, guid: 38d0a9fb57b59462c88719d75af31d20, type: 3}
+  shop: {fileID: 21300000, guid: ec34fcd5604b84467890d56d7e7f19c2, type: 3}
+  home: {fileID: 21300000, guid: b56658b2fd48d4e04a05dcd8795add87, type: 3}
+  like: {fileID: 21300000, guid: 442e0fd1fce2c40a6aed5275eaf99c2b, type: 3}
+  post: {fileID: 358353961}
 --- !u!1 &947183129
 GameObject:
   m_ObjectHideFlags: 0
@@ -3514,10 +3574,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab65e547fb37f44f08fcde75f202b9af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image1: {fileID: 21300000, guid: 6c17e27611dff48769c76a22cd5e863f, type: 3}
-  image2: {fileID: 21300000, guid: 442e0fd1fce2c40a6aed5275eaf99c2b, type: 3}
-  image3: {fileID: 21300000, guid: 5e4f693c00e2f47c782dd15102376a66, type: 3}
-  image4: {fileID: 21300000, guid: 7d9fb9846cf84446a9878f537524a890, type: 3}
+  image1: {fileID: 21300000, guid: 7d9fb9846cf84446a9878f537524a890, type: 3}
+  image2: {fileID: 21300000, guid: 5e4f693c00e2f47c782dd15102376a66, type: 3}
+  image3: {fileID: 21300000, guid: 6c17e27611dff48769c76a22cd5e863f, type: 3}
+  image4: {fileID: 21300000, guid: 5e6ce5882e7c54376995ba7e91332f8b, type: 3}
+  search: {fileID: 21300000, guid: 38d0a9fb57b59462c88719d75af31d20, type: 3}
+  shop: {fileID: 21300000, guid: ec34fcd5604b84467890d56d7e7f19c2, type: 3}
+  home: {fileID: 21300000, guid: b56658b2fd48d4e04a05dcd8795add87, type: 3}
+  like: {fileID: 21300000, guid: 442e0fd1fce2c40a6aed5275eaf99c2b, type: 3}
   post: {fileID: 358353961}
 --- !u!1 &1081653616
 GameObject:
@@ -3784,6 +3848,7 @@ GameObject:
   - component: {fileID: 1136155990}
   - component: {fileID: 1136155989}
   - component: {fileID: 1136155988}
+  - component: {fileID: 1136155992}
   m_Layer: 5
   m_Name: Like
   m_TagString: Untagged
@@ -3824,6 +3889,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   click: {fileID: 760235625}
+  search: {fileID: 0}
+  shop: {fileID: 0}
+  home: {fileID: 0}
+  comment: {fileID: 0}
+  like: {fileID: 0}
+  post: {fileID: 0}
 --- !u!114 &1136155989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3868,7 +3939,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1136155988}
-        m_MethodName: findNextScene
+        m_MethodName: clickNoise
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3878,8 +3949,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1136155988}
-        m_MethodName: clickNoise
+      - m_Target: {fileID: 1136155992}
+        m_MethodName: nextScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3926,6 +3997,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1136155986}
   m_CullTransparentMesh: 0
+--- !u!114 &1136155992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136155986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab65e547fb37f44f08fcde75f202b9af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image1: {fileID: 21300000, guid: 7d9fb9846cf84446a9878f537524a890, type: 3}
+  image2: {fileID: 21300000, guid: 5e4f693c00e2f47c782dd15102376a66, type: 3}
+  image3: {fileID: 21300000, guid: 6c17e27611dff48769c76a22cd5e863f, type: 3}
+  image4: {fileID: 21300000, guid: 5e6ce5882e7c54376995ba7e91332f8b, type: 3}
+  search: {fileID: 21300000, guid: 38d0a9fb57b59462c88719d75af31d20, type: 3}
+  shop: {fileID: 21300000, guid: ec34fcd5604b84467890d56d7e7f19c2, type: 3}
+  home: {fileID: 21300000, guid: b56658b2fd48d4e04a05dcd8795add87, type: 3}
+  like: {fileID: 21300000, guid: 442e0fd1fce2c40a6aed5275eaf99c2b, type: 3}
+  post: {fileID: 358353961}
 --- !u!1 &1235045227
 GameObject:
   m_ObjectHideFlags: 0
@@ -4582,6 +4674,7 @@ GameObject:
   - component: {fileID: 1658897587}
   - component: {fileID: 1658897586}
   - component: {fileID: 1658897585}
+  - component: {fileID: 1658897589}
   m_Layer: 5
   m_Name: Shop
   m_TagString: Untagged
@@ -4622,6 +4715,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   click: {fileID: 760235625}
+  search: {fileID: 0}
+  shop: {fileID: 0}
+  home: {fileID: 0}
+  comment: {fileID: 0}
+  like: {fileID: 0}
+  post: {fileID: 0}
 --- !u!114 &1658897586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4666,7 +4765,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1658897585}
-        m_MethodName: findNextScene
+        m_MethodName: clickNoise
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4676,8 +4775,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1658897585}
-        m_MethodName: clickNoise
+      - m_Target: {fileID: 1658897589}
+        m_MethodName: nextScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4724,6 +4823,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1658897583}
   m_CullTransparentMesh: 0
+--- !u!114 &1658897589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658897583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab65e547fb37f44f08fcde75f202b9af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image1: {fileID: 21300000, guid: 7d9fb9846cf84446a9878f537524a890, type: 3}
+  image2: {fileID: 21300000, guid: 5e4f693c00e2f47c782dd15102376a66, type: 3}
+  image3: {fileID: 21300000, guid: 6c17e27611dff48769c76a22cd5e863f, type: 3}
+  image4: {fileID: 21300000, guid: 5e6ce5882e7c54376995ba7e91332f8b, type: 3}
+  search: {fileID: 21300000, guid: 38d0a9fb57b59462c88719d75af31d20, type: 3}
+  shop: {fileID: 21300000, guid: ec34fcd5604b84467890d56d7e7f19c2, type: 3}
+  home: {fileID: 21300000, guid: b56658b2fd48d4e04a05dcd8795add87, type: 3}
+  like: {fileID: 21300000, guid: 442e0fd1fce2c40a6aed5275eaf99c2b, type: 3}
+  post: {fileID: 358353961}
 --- !u!1 &1716394031
 GameObject:
   m_ObjectHideFlags: 0
@@ -5018,6 +5138,7 @@ GameObject:
   - component: {fileID: 1944915151}
   - component: {fileID: 1944915150}
   - component: {fileID: 1944915149}
+  - component: {fileID: 1944915153}
   m_Layer: 5
   m_Name: Home
   m_TagString: Untagged
@@ -5058,6 +5179,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   click: {fileID: 760235625}
+  search: {fileID: 0}
+  shop: {fileID: 0}
+  home: {fileID: 0}
+  comment: {fileID: 0}
+  like: {fileID: 0}
+  post: {fileID: 0}
 --- !u!114 &1944915150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5102,7 +5229,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1944915149}
-        m_MethodName: findNextScene
+        m_MethodName: clickNoise
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5112,8 +5239,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1944915149}
-        m_MethodName: clickNoise
+      - m_Target: {fileID: 1944915153}
+        m_MethodName: nextScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5160,6 +5287,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1944915147}
   m_CullTransparentMesh: 0
+--- !u!114 &1944915153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944915147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab65e547fb37f44f08fcde75f202b9af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image1: {fileID: 21300000, guid: 7d9fb9846cf84446a9878f537524a890, type: 3}
+  image2: {fileID: 21300000, guid: 5e4f693c00e2f47c782dd15102376a66, type: 3}
+  image3: {fileID: 21300000, guid: 6c17e27611dff48769c76a22cd5e863f, type: 3}
+  image4: {fileID: 21300000, guid: 5e6ce5882e7c54376995ba7e91332f8b, type: 3}
+  search: {fileID: 21300000, guid: 38d0a9fb57b59462c88719d75af31d20, type: 3}
+  shop: {fileID: 21300000, guid: ec34fcd5604b84467890d56d7e7f19c2, type: 3}
+  home: {fileID: 21300000, guid: b56658b2fd48d4e04a05dcd8795add87, type: 3}
+  like: {fileID: 21300000, guid: 442e0fd1fce2c40a6aed5275eaf99c2b, type: 3}
+  post: {fileID: 358353961}
 --- !u!1 &1955129151
 GameObject:
   m_ObjectHideFlags: 0
