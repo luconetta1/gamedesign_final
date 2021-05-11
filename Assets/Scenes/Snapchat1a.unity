@@ -375,6 +375,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   click: {fileID: 448824418}
+  search: {fileID: 0}
+  shop: {fileID: 0}
+  home: {fileID: 0}
+  comment: {fileID: 0}
+  like: {fileID: 0}
+  post: {fileID: 0}
 --- !u!1 &86480417
 GameObject:
   m_ObjectHideFlags: 0
@@ -543,6 +549,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   click: {fileID: 448824418}
+  search: {fileID: 0}
+  shop: {fileID: 0}
+  home: {fileID: 0}
+  comment: {fileID: 0}
+  like: {fileID: 0}
+  post: {fileID: 0}
 --- !u!1 &145631530
 GameObject:
   m_ObjectHideFlags: 0
@@ -789,6 +801,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   click: {fileID: 448824418}
+  search: {fileID: 0}
+  shop: {fileID: 0}
+  home: {fileID: 0}
+  comment: {fileID: 0}
+  like: {fileID: 0}
+  post: {fileID: 0}
 --- !u!1 &317418117
 GameObject:
   m_ObjectHideFlags: 0
@@ -1081,7 +1099,8 @@ AudioSource:
   m_GameObject: {fileID: 448824417}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 9793e836745094cb3bc40dba7821350d,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: efdbe5a91bc2242b78a2832c91f44476, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -1390,6 +1409,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   click: {fileID: 448824418}
+  search: {fileID: 0}
+  shop: {fileID: 0}
+  home: {fileID: 0}
+  comment: {fileID: 0}
+  like: {fileID: 0}
+  post: {fileID: 0}
 --- !u!1 &769926823
 GameObject:
   m_ObjectHideFlags: 0
@@ -2876,6 +2901,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   click: {fileID: 448824418}
+  search: {fileID: 0}
+  shop: {fileID: 0}
+  home: {fileID: 0}
+  comment: {fileID: 0}
+  like: {fileID: 0}
+  post: {fileID: 0}
 --- !u!1 &1629695641
 GameObject:
   m_ObjectHideFlags: 0
@@ -3044,6 +3075,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   click: {fileID: 448824418}
+  search: {fileID: 0}
+  shop: {fileID: 0}
+  home: {fileID: 0}
+  comment: {fileID: 0}
+  like: {fileID: 0}
+  post: {fileID: 0}
 --- !u!1 &1803287684
 GameObject:
   m_ObjectHideFlags: 0
@@ -3726,7 +3763,8 @@ AudioSource:
   m_GameObject: {fileID: 2072568121}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 9793e836745094cb3bc40dba7821350d,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 11bbff76f3c514e67bf670712a11bf82, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1

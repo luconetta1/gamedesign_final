@@ -382,7 +382,8 @@ AudioSource:
   m_GameObject: {fileID: 523600515}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 9793e836745094cb3bc40dba7821350d,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 11bbff76f3c514e67bf670712a11bf82, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -1394,7 +1395,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Press the ESCAPE key at anytime to exit the game.
+  m_Text: Press the ESCAPE key at anytime to pause/exit the game.
 --- !u!222 &942332739
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2073,7 +2074,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 21.978, y: 130}
+  m_AnchoredPosition: {x: 21.978, y: 80}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1680081963
@@ -2095,12 +2096,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "You are TRAPPED in this phone!\n\nIn order to escape, you must complete
-    a series of puzzles in the following \napps...\n   RedeIt\n   LIvE\n   QuickPic\n\nEach
-    app corresponds to a different\ntype of puzzle and will increase in \ndifficulty
-    as you go.\n\nBe on the look out for a 4 DIGIT CODE\nthat will help you leave
-    the phone!!\n\nDon't worry if you get a puzzle wrong...\nyou can always start
-    over!\n\nGood Luck!! Your first puzzle awaits you\nin Redeit!"
+  m_text: Can you escape...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2351,7 +2347,8 @@ AudioSource:
   m_GameObject: {fileID: 1788132811}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 9793e836745094cb3bc40dba7821350d,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: efdbe5a91bc2242b78a2832c91f44476, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1

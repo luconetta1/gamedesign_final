@@ -103,15 +103,15 @@ public class KeypadButton : MonoBehaviour
     {
       if (SceneManager.GetActiveScene().name == "Instagram") {
         if(!doneFirst){
-          notepad.text += realCode[0] + "";
-          progress += realCode[0] + "";
+          notepad.text += realCode[0] + "\t";
+          progress += realCode[0] + "\t";
           doneFirst = true;
         }
       }
       else if (SceneManager.GetActiveScene().name == "Snapchat") {
         if(!doneSecond){
-          notepad.text += realCode[1] + "";
-          progress += realCode[1] + "";
+          notepad.text += realCode[1] + "\t";
+          progress += realCode[1] + "\t";
           doneSecond = true;
         }
       }
@@ -119,15 +119,15 @@ public class KeypadButton : MonoBehaviour
                 SceneManager.GetActiveScene().name == "Reddit2b" || 
                 SceneManager.GetActiveScene().name == "Reddit2c") {
         if(!doneThird){
-          notepad.text += realCode[2] + "";
-          progress += realCode[2] + "";
+          notepad.text += realCode[2] + "\t";
+          progress += realCode[2] + "\t";
           doneThird = true;
         }
       }
       else if (SceneManager.GetActiveScene().name == "Snapchat2a") {
         if(!doneFourth){
-          notepad.text += realCode[3] + "";
-          progress += realCode[3] + "";
+          notepad.text += realCode[3] + "\t";
+          progress += realCode[3] + "\t";
           doneFourth = true;
         }
       }
