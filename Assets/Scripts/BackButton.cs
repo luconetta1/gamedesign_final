@@ -64,6 +64,11 @@ public class BackButton : MonoBehaviour
       }
       
     }
+    
+    public void resetReddit() {
+      reddit1 = 0;
+      reddit2 = 0;
+    }
   
     
     public void goBack() 

@@ -34,7 +34,7 @@ public class KeypadButton : MonoBehaviour
         inputDisplay.text = "_ _ _ _";
         notepad.text = progress;
         string curr = SceneManager.GetActiveScene().name;
-        if ( curr == "Instagram" || curr == "Snapchat" || curr == "Reddit2" || curr == "Snapchat2a")
+        if ( curr == "Instagram" || curr == "Snapchat" || curr == "Reddit2" || curr == "Snapchat2a" || curr == "Reddit2b" || curr == "Reddit2c")
         {
           changeHidden();
         }
