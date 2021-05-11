@@ -7,14 +7,49 @@ using UnityEngine.EventSystems;
 public class BackButton : MonoBehaviour
 { 
     private static int progress;
+
     public GameObject nextButton;
+
+    public static int reddit1 = 0;
+    public static int reddit2 = 0;
+
+    public static string reddit1_string = "Reddit";
+    public static string reddit2_string = "Reddit2";
+
+
+  
+
     
     void Start() {
+      int temp_reddit1 = Random.Range(1,4);
+      int temp_reddit2 = Random.Range(1,4);
+
+      if(reddit1 == 0){
+        reddit1 = temp_reddit1;
+      }
+
+      if(reddit2 == 0){
+        reddit2 = temp_reddit2;
+      }
+
+      if(reddit1 == 2){
+          reddit1_string = "Reddit1b";
+      }else if(reddit1 == 3){
+          reddit1_string = "Reddit1c";
+      }
+
+    
+
+     if(reddit2 == 2){
+          reddit2_string = "Reddit2b";
+      }else if(reddit2 == 3){
+          reddit2_string = "Reddit2c";
+      }         
       var levels = new Dictionary<string, int>() {
-        {"Home", 1}, {"Reddit", 2}, {"Message1", 3},
+        {"Home", 1}, {"Reddit", 2}, {"Reddit1b", 2},  {"Reddit1c", 2}, {"Message1", 3},
         {"Instagram", 4}, {"Message2", 5}, {"Snapchat", 6},
-        {"Snapchat1a", 7}, {"Message3", 8}, {"Reddit2", 9},
-        {"Message4", 10}, {"Snapchat2", 11}, {"Snapchat2a", 12},
+        {"Snapchat1a", 7}, {"Message3", 8}, {"Reddit2", 9}, {"Reddit2b", 9},
+        {"Reddit2c", 9}, {"Message4", 10}, {"Snapchat2", 11}, {"Snapchat2a", 12},
         {"Message5", 13}, {"Instagram2", 14}, {"Message6", 15},
         {"keypad", 0}, {"Lose", 0}, {"Pause", 0}
       };
@@ -66,13 +101,23 @@ public class BackButton : MonoBehaviour
             progress = 10;
           break;
         case "Message4":
-          SceneManager.LoadScene("Reddit2");
+            SceneManager.LoadScene(reddit2_string);
           if (progress < 9) 
             progress = 9;
           break;
         case "Reddit2":
           SceneManager.LoadScene("Message3");
           if (progress < 8) 
+            progress = 8;
+          break;
+         case "Reddit2b":
+            SceneManager.LoadScene("Message3");
+            if (progress < 8) 
+            progress = 8;
+          break;
+        case "Reddit2c":
+            SceneManager.LoadScene("Message3");
+            if (progress < 8) 
             progress = 8;
           break;
         case "Message3":
@@ -101,7 +146,7 @@ public class BackButton : MonoBehaviour
             progress = 3;
           break;
         case "Message1":
-          SceneManager.LoadScene("Reddit");
+          SceneManager.LoadScene(reddit1_string);
           if (progress < 2) 
             progress = 2;
           break;
@@ -110,6 +155,16 @@ public class BackButton : MonoBehaviour
           if (progress < 1) 
             progress = 1;
           break;  
+         case "Reddit1b":
+            SceneManager.LoadScene("Home");
+            if (progress < 1) 
+            progress = 1;
+          break;
+        case "Reddit1c":
+            SceneManager.LoadScene("Home");
+            if (progress < 1) 
+            progress = 1;
+          break;
       }
     }
     
@@ -120,11 +175,17 @@ public class BackButton : MonoBehaviour
       
       switch(curr) {
         case "Home":
-          SceneManager.LoadScene("Reddit");
+          SceneManager.LoadScene(reddit1_string);
           break;
         case "Reddit":
           SceneManager.LoadScene("Message1");
           break;
+         case "Reddit1b":
+            SceneManager.LoadScene("Message1");
+          break;
+        case "Reddit1c":
+            SceneManager.LoadScene("Message1");
+        break;
         case "Message1":
           SceneManager.LoadScene("Instagram");
           break;
@@ -141,11 +202,17 @@ public class BackButton : MonoBehaviour
           SceneManager.LoadScene("Message3");
           break;
         case "Message3":
-          SceneManager.LoadScene("Reddit2");
+          SceneManager.LoadScene(reddit2_string);
           break;
         case "Reddit2":
-          SceneManager.LoadScene("Message4");
+            SceneManager.LoadScene("Message4");
           break;
+        case "Reddit2b":
+            SceneManager.LoadScene("Message4");
+          break;
+        case "Reddit2c":
+            SceneManager.LoadScene("Message4");
+        break;
         case "Message4":
           SceneManager.LoadScene("Snapchat2");
           break;

@@ -5,7 +5,13 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class progress : MonoBehaviour {
-    
+
+
+
+    public static string reddit1_string = "Reddit";
+    public static string reddit2_string = "Reddit2";
+
+
     // Unity UI References
     public Slider slider;
     public Text displayText;
@@ -36,7 +42,7 @@ public class progress : MonoBehaviour {
     public float get_scene_percent(){
 
         Debug.Log(current_scene.name);
-        if(current_scene.name == "Reddit"){
+        if(current_scene.name == "Reddit" || current_scene.name == "Reddit1b" || current_scene.name == "Reddit1c"){
             prog = Mathf.Max(prog,0);
         } else if(current_scene.name == "Message2"){
             prog = Mathf.Max(prog,2);

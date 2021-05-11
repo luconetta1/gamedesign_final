@@ -54,7 +54,8 @@ public class message : MonoBehaviour
         SceneManager.LoadScene("Snapchat");  //Snap Level 1
       }
       else if ( currScene == "Message3") {
-        SceneManager.LoadScene("Reddit2");  //Reddit Level 2
+        Debug.Log("REDDIT2 SCENE: " + BackButton.reddit2);
+        SceneManager.LoadScene(BackButton.reddit2_string);  //Reddit Level 2
       }
       else if ( currScene == "Message4") {
         SceneManager.LoadScene("Snapchat2");  //Snap Level 2

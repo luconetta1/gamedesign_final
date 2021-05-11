@@ -65,4 +65,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Pause.unity
     guid: a28bb51766b674263a9f0c9d137c9c7e
+  - enabled: 1
+    path: Assets/Scenes/Reddit1c.unity
+    guid: 91495682d36914ca0b75cba5b285b3b0
+  - enabled: 1
+    path: Assets/Scenes/Reddit1b.unity
+    guid: 2311591eeb4cd4bc293975770b716ae5
+  - enabled: 1
+    path: Assets/Scenes/Reddit2b.unity
+    guid: c098b651517194c15b18ab9ee6f17930
+  - enabled: 1
+    path: Assets/Scenes/Reddit2c.unity
+    guid: dde6472198a5e4a318bcb4fc46c13d9c
   m_configObjects: {}

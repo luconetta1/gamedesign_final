@@ -82,7 +82,9 @@ public class KeypadButton : MonoBehaviour
         hiddenButton.transform.position = pos;
         hiddenNum.text = realCode[1] + "";
       }
-      else if (SceneManager.GetActiveScene().name == "Reddit2") {
+      else if (SceneManager.GetActiveScene().name == "Reddit2" || 
+                SceneManager.GetActiveScene().name == "Reddit2b" || 
+                SceneManager.GetActiveScene().name == "Reddit2c") {
         pos.y += UnityEngine.Random.Range(-90.0f, 30.0f);
         hiddenButton.transform.position = pos;
         hiddenNum.text = realCode[2] + "";
@@ -113,7 +115,9 @@ public class KeypadButton : MonoBehaviour
           doneSecond = true;
         }
       }
-      else if (SceneManager.GetActiveScene().name == "Reddit2") {
+      else if (SceneManager.GetActiveScene().name == "Reddit2" || 
+                SceneManager.GetActiveScene().name == "Reddit2b" || 
+                SceneManager.GetActiveScene().name == "Reddit2c") {
         if(!doneThird){
           notepad.text += realCode[2] + "";
           progress += realCode[2] + "";

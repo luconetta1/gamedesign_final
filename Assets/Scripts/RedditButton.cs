@@ -35,16 +35,14 @@ public class RedditButton : MonoBehaviour
       string currScene = SceneManager.GetActiveScene().name;
       
       //go to fourth message
-      if (currScene == "Reddit2") {
+      if (currScene == BackButton.reddit2_string) {
         SceneManager.LoadScene("Message4");
       }
       //or go to first message scene after first reddit puzzle
       else {
         SceneManager.LoadScene("Message1");
       }
-      
-      //skip straight to insta for now
-      
+            
   }
 
   public void setb1(){

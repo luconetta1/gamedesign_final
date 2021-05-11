@@ -12,7 +12,8 @@ public class Start_Button : MonoBehaviour
           SceneManager.LoadScene("Home");
         }
         else {
-          SceneManager.LoadScene("Reddit");
+          Debug.Log(BackButton.reddit1);
+          SceneManager.LoadScene(BackButton.reddit1_string);
         }
     }
 }
