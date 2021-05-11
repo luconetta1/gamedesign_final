@@ -20,7 +20,7 @@ public class KeypadButton : MonoBehaviour
     private string buttonName, buttonValue;
     private static string InputCode;
     private static string realCode;
-    private static string progress = "";
+    private static string progress = "_ _ _ _";
     private static bool doneFirst  = false;
     private static bool doneSecond = false;
     private static bool doneThird  = false;
@@ -98,37 +98,66 @@ public class KeypadButton : MonoBehaviour
       }
     }
     
+    private string updateNote() {
+      string temp = "";
+      if (doneFirst) {
+        temp += realCode[0]+" ";
+      }
+      else {
+        temp += "_ ";
+      }
+      if (doneSecond) {
+        temp += realCode[1]+" ";
+      }
+      else {
+        temp += "_ ";
+      }
+      if (doneThird) {
+        temp += realCode[2]+" ";
+      }
+      else {
+        temp += "_ ";
+      }
+      if (doneFourth) {
+        temp += realCode[3]+" ";
+      }
+      else {
+        temp += "_ ";
+      }
+      return temp;
+    }
+    
     //adds digit to notepad
     public void addNote() 
     {
       if (SceneManager.GetActiveScene().name == "Instagram") {
         if(!doneFirst){
-          notepad.text += realCode[0] + "\t";
-          progress += realCode[0] + "\t";
           doneFirst = true;
+          notepad.text = updateNote();
+          progress     = updateNote();
         }
       }
       else if (SceneManager.GetActiveScene().name == "Snapchat") {
         if(!doneSecond){
-          notepad.text += realCode[1] + "\t";
-          progress += realCode[1] + "\t";
           doneSecond = true;
+          notepad.text = updateNote();
+          progress     = updateNote();
         }
       }
       else if (SceneManager.GetActiveScene().name == "Reddit2" || 
                 SceneManager.GetActiveScene().name == "Reddit2b" || 
                 SceneManager.GetActiveScene().name == "Reddit2c") {
         if(!doneThird){
-          notepad.text += realCode[2] + "\t";
-          progress += realCode[2] + "\t";
           doneThird = true;
+          notepad.text = updateNote();
+          progress     = updateNote();
         }
       }
       else if (SceneManager.GetActiveScene().name == "Snapchat2a") {
         if(!doneFourth){
-          notepad.text += realCode[3] + "\t";
-          progress += realCode[3] + "\t";
           doneFourth = true;
+          notepad.text = updateNote();
+          progress     = updateNote();
         }
       }
     }
